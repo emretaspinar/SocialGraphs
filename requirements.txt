@@ -5,6 +5,8 @@ scipy>=1.13
 networkx>=3.4        # nx.forceatlas2_layout (network/preprocess.ipynb)
 matplotlib>=3.9
 jupyter
+nbconvert
+ipykernel
 
 # NLP (nlp/)
 spacy>=3.8,<3.9
