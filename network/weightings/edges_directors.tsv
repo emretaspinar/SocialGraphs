@@ -1,0 +1,1177 @@
+# Film collaboration network (2026-11-09), weighting scheme 'directors'.
+# weight = shared_directors. Only pairs with weight > 0.
+# 1789 nodes (take them from films_nodes.tsv), 1173 edges.
+source	target	weight	shared_directors	shared_actors	billing_score	director_names	actor_names
+127_Hours	Steve_Jobs_(film)	1	1	0	0.0	Danny Boyle	
+12_Years_a_Slave_(film)	Widows_(2018_film)	1	1	0	0.0	Steve McQueen	
+13_Hours:_The_Secret_Soldiers_of_Benghazi	6_Underground_(film)	1	1	0	0.0	Michael Bay	
+13_Hours:_The_Secret_Soldiers_of_Benghazi	Pain_&_Gain	1	1	0	0.0	Michael Bay	
+13_Hours:_The_Secret_Soldiers_of_Benghazi	Transformers:_Dark_of_the_Moon	1	1	0	0.0	Michael Bay	
+13_Sins	The_Last_Exorcism	1	1	0	0.0	Daniel Stamm	
+1917_(2019_film)	Skyfall	1	1	0	0.0	Sam Mendes	
+20th_Century_Women	Beginners	1	1	0	0.0	Mike Mills	
+21_&_Over_(film)	A_Bad_Moms_Christmas	2	2	0	0.0	Jon Lucas|Scott Moore	
+21_&_Over_(film)	Bad_Moms	2	2	0	0.0	Jon Lucas|Scott Moore	
+21_&_Over_(film)	Jexi	2	2	0	0.0	Jon Lucas|Scott Moore	
+22_July_(film)	Captain_Phillips_(film)	1	1	0	0.0	Paul Greengrass	
+22_July_(film)	Green_Zone_(film)	1	1	0	0.0	Paul Greengrass	
+2_Guns	Adrift_(2018_film)	1	1	0	0.0	Baltasar Kormákur	
+2_Guns	Contraband_(2012_film)	1	1	1	0.75	Baltasar Kormákur	Mark Wahlberg
+2_Guns	Everest_(2015_film)	1	1	0	0.0	Baltasar Kormákur	
+30_Minutes_or_Less	Gangster_Squad_(film)	1	1	0	0.0	Ruben Fleischer	
+30_Minutes_or_Less	Venom_(2018_film)	1	1	0	0.0	Ruben Fleischer	
+30_Minutes_or_Less	Zombieland:_Double_Tap	1	1	1	0.75	Ruben Fleischer	Jesse Eisenberg
+31_(film)	3_from_Hell	1	1	0	0.0	Rob Zombie	
+31_(film)	The_Lords_of_Salem_(film)	1	1	0	0.0	Rob Zombie	
+3_Days_to_Kill	Rim_of_the_World	1	1	0	0.0	McG	
+3_Days_to_Kill	The_Babysitter_(2017_film)	1	1	0	0.0	McG	
+3_Days_to_Kill	This_Means_War_(film)	1	1	0	0.0	McG	
+3_from_Hell	The_Lords_of_Salem_(film)	1	1	1	1.0	Rob Zombie	Sheri Moon Zombie
+47_Meters_Down	47_Meters_Down:_Uncaged	1	1	0	0.0	Johannes Roberts	
+47_Meters_Down	The_Strangers:_Prey_at_Night	1	1	0	0.0	Johannes Roberts	
+47_Meters_Down:_Uncaged	The_Strangers:_Prey_at_Night	1	1	0	0.0	Johannes Roberts	
+50/50_(2011_film)	Long_Shot_(2019_film)	1	1	1	0.5	Jonathan Levine	Seth Rogen
+50/50_(2011_film)	Snatched_(2017_film)	1	1	0	0.0	Jonathan Levine	
+50/50_(2011_film)	The_Night_Before_(2015_film)	1	1	2	1.5	Jonathan Levine	Joseph Gordon-Levitt|Seth Rogen
+50/50_(2011_film)	Warm_Bodies_(film)	1	1	0	0.0	Jonathan Levine	
+5_to_7	Destination_Wedding	1	1	0	0.0	Victor Levin	
+6_Underground_(film)	Pain_&_Gain	1	1	0	0.0	Michael Bay	
+6_Underground_(film)	Transformers:_Dark_of_the_Moon	1	1	0	0.0	Michael Bay	
+99_Homes	Fahrenheit_451_(2018_film)	1	1	0	0.0	Ramin Bahrani	
+A_Bad_Moms_Christmas	Bad_Moms	2	2	3	1.8333	Jon Lucas|Scott Moore	Mila Kunis|Kathryn Hahn|Kristen Bell
+A_Bad_Moms_Christmas	Jexi	2	2	0	0.0	Jon Lucas|Scott Moore	
+A_Beautiful_Day_in_the_Neighborhood	Can_You_Ever_Forgive_Me?	1	1	0	0.0	Marielle Heller	
+A_Beautiful_Day_in_the_Neighborhood	The_Diary_of_a_Teenage_Girl	1	1	0	0.0	Marielle Heller	
+A_Better_Life_(film)	Operation_Finale	1	1	0	0.0	Chris Weitz	
+A_Cure_for_Wellness	The_Lone_Ranger_(2013_film)	1	1	0	0.0	Gore Verbinski	
+A_Dog's_Purpose_(film)	Dear_John_(2010_film)	1	1	0	0.0	Lasse Hallström	
+A_Dog's_Purpose_(film)	Safe_Haven_(film)	1	1	0	0.0	Lasse Hallström	
+A_Dog's_Purpose_(film)	The_Hundred-Foot_Journey_(film)	1	1	0	0.0	Lasse Hallström	
+A_Dog's_Purpose_(film)	The_Nutcracker_and_the_Four_Realms	1	1	0	0.0	Lasse Hallström	
+A_Dog's_Way_Home	Dolphin_Tale	1	1	1	0.75	Charles Martin Smith	Ashley Judd
+A_Fantastic_Woman	Disobedience_(2017_film)	1	1	0	0.0	Sebastián Lelio	
+A_Futile_and_Stupid_Gesture	They_Came_Together	1	1	0	0.0	David Wain	
+A_Futile_and_Stupid_Gesture	Wanderlust_(2012_film)	1	1	0	0.0	David Wain	
+A_Ghost_Story	Ain't_Them_Bodies_Saints	1	1	2	1.5	David Lowery	Rooney Mara|Casey Affleck
+A_Ghost_Story	Pete's_Dragon_(2016_film)	1	1	0	0.0	David Lowery	
+A_Ghost_Story	The_Old_Man_&_the_Gun	1	1	1	0.75	David Lowery	Casey Affleck
+A_Girl_Walks_Home_Alone_at_Night	The_Bad_Batch_(film)	1	1	0	0.0	Ana Lily Amirpour	
+A_Good_Day_to_Die_Hard	I.T._(film)	1	1	0	0.0	John Moore	
+A_Haunted_House	A_Haunted_House_2	1	1	1	1.0	Michael Tiddes	Marlon Wayans
+A_Haunted_House	Fifty_Shades_of_Black	1	1	1	1.0	Michael Tiddes	Marlon Wayans
+A_Haunted_House	Naked_(2017_film)	1	1	1	1.0	Michael Tiddes	Marlon Wayans
+A_Haunted_House_2	Fifty_Shades_of_Black	1	1	1	1.0	Michael Tiddes	Marlon Wayans
+A_Haunted_House_2	Naked_(2017_film)	1	1	1	1.0	Michael Tiddes	Marlon Wayans
+A_Hidden_Life_(2019_film)	Knight_of_Cups_(film)	1	1	0	0.0	Terrence Malick	
+A_Hidden_Life_(2019_film)	Song_to_Song	1	1	0	0.0	Terrence Malick	
+A_Hidden_Life_(2019_film)	The_Tree_of_Life_(film)	1	1	0	0.0	Terrence Malick	
+A_Hidden_Life_(2019_film)	To_the_Wonder	1	1	0	0.0	Terrence Malick	
+A_Hologram_for_the_King_(film)	Cloud_Atlas_(film)	1	1	1	0.6667	Tom Tykwer	Tom Hanks
+A_Million_Ways_to_Die_in_the_West	Ted_(film)	1	1	1	0.6667	Seth MacFarlane	Seth MacFarlane
+A_Million_Ways_to_Die_in_the_West	Ted_2	1	1	1	0.75	Seth MacFarlane	Seth MacFarlane
+A_Most_Violent_Year	All_Is_Lost	1	1	0	0.0	J.C. Chandor	
+A_Most_Violent_Year	Margin_Call	1	1	0	0.0	J.C. Chandor	
+A_Most_Violent_Year	Triple_Frontier_(film)	1	1	1	0.75	J.C. Chandor	Oscar Isaac
+A_Most_Wanted_Man_(film)	The_American_(2010_film)	1	1	0	0.0	Anton Corbijn	
+A_Quiet_Place	The_Hollars	1	1	0	0.0	John Krasinski	
+A_Rainy_Day_in_New_York	Blue_Jasmine	1	1	0	0.0	Woody Allen	
+A_Rainy_Day_in_New_York	Café_Society_(2016_film)	1	1	0	0.0	Woody Allen	
+A_Rainy_Day_in_New_York	Irrational_Man_(film)	1	1	0	0.0	Woody Allen	
+A_Rainy_Day_in_New_York	Magic_in_the_Moonlight	1	1	0	0.0	Woody Allen	
+A_Rainy_Day_in_New_York	Midnight_in_Paris	1	1	0	0.0	Woody Allen	
+A_Rainy_Day_in_New_York	To_Rome_with_Love_(film)	1	1	0	0.0	Woody Allen	
+A_Rainy_Day_in_New_York	Wonder_Wheel_(film)	1	1	0	0.0	Woody Allen	
+A_Rainy_Day_in_New_York	You_Will_Meet_a_Tall_Dark_Stranger	1	1	0	0.0	Woody Allen	
+A_Simple_Favor_(film)	Bridesmaids_(2011_film)	1	1	0	0.0	Paul Feig	
+A_Simple_Favor_(film)	Ghostbusters_(2016_film)	1	1	0	0.0	Paul Feig	
+A_Simple_Favor_(film)	Last_Christmas_(film)	1	1	0	0.0	Paul Feig	
+A_Simple_Favor_(film)	Spy_(2015_film)	1	1	0	0.0	Paul Feig	
+A_Simple_Favor_(film)	The_Heat_(film)	1	1	0	0.0	Paul Feig	
+A_Very_Harold_&_Kumar_3D_Christmas	Isn't_It_Romantic_(2019_film)	1	1	0	0.0	Todd Strauss-Schulson	
+A_Very_Harold_&_Kumar_3D_Christmas	The_Final_Girls	1	1	0	0.0	Todd Strauss-Schulson	
+A_Walk_in_the_Woods_(film)	Big_Miracle	1	1	0	0.0	Ken Kwapis	
+A_Wrinkle_in_Time_(2018_film)	Selma_(film)	1	1	1	0.4167	Ava DuVernay	Oprah Winfrey
+About_Last_Night_(2014_film)	Hot_Tub_Time_Machine	1	1	0	0.0	Steve Pink	
+About_Last_Night_(2014_film)	Hot_Tub_Time_Machine_2	1	1	0	0.0	Steve Pink	
+Abraham_Lincoln:_Vampire_Hunter	Ben-Hur_(2016_film)	1	1	0	0.0	Timur Bekmambetov	
+Absentia_(film)	Before_I_Wake_(2016_film)	1	1	0	0.0	Mike Flanagan	
+Absentia_(film)	Doctor_Sleep_(2019_film)	1	1	0	0.0	Mike Flanagan	
+Absentia_(film)	Gerald's_Game_(film)	1	1	0	0.0	Mike Flanagan	
+Absentia_(film)	Hush_(2016_feature_film)	1	1	0	0.0	Mike Flanagan	
+Absentia_(film)	Oculus_(film)	1	1	0	0.0	Mike Flanagan	
+Absentia_(film)	Ouija:_Origin_of_Evil	1	1	0	0.0	Mike Flanagan	
+Act_of_Valor	Need_for_Speed_(film)	1	1	0	0.0	Scott Waugh	
+Ad_Astra_(film)	The_Immigrant_(2013_film)	1	1	0	0.0	James Gray	
+Ad_Astra_(film)	The_Lost_City_of_Z_(film)	1	1	0	0.0	James Gray	
+Admission_(film)	Being_Flynn	1	1	0	0.0	Paul Weitz	
+Admission_(film)	Grandma_(2015_film)	1	1	0	0.0	Paul Weitz	
+Admission_(film)	Little_Fockers	1	1	0	0.0	Paul Weitz	
+Adrift_(2018_film)	Contraband_(2012_film)	1	1	0	0.0	Baltasar Kormákur	
+Adrift_(2018_film)	Everest_(2015_film)	1	1	0	0.0	Baltasar Kormákur	
+After_Earth	Split_(2016_American_film)	1	1	0	0.0	M. Night Shyamalan	
+After_Earth	The_Last_Airbender_(film)	1	1	0	0.0	M. Night Shyamalan	
+After_Earth	The_Visit_(2015_American_film)	1	1	0	0.0	M. Night Shyamalan	
+Ain't_Them_Bodies_Saints	Pete's_Dragon_(2016_film)	1	1	0	0.0	David Lowery	
+Ain't_Them_Bodies_Saints	The_Old_Man_&_the_Gun	1	1	1	0.5	David Lowery	Casey Affleck
+Aladdin_(2019_film)	King_Arthur:_Legend_of_the_Sword	1	1	0	0.0	Guy Ritchie	
+Aladdin_(2019_film)	Sherlock_Holmes:_A_Game_of_Shadows	1	1	0	0.0	Guy Ritchie	
+Aladdin_(2019_film)	The_Gentlemen_(2019_film)	1	1	0	0.0	Guy Ritchie	
+Aladdin_(2019_film)	The_Man_from_U.N.C.L.E._(film)	1	1	0	0.0	Guy Ritchie	
+Alex_Cross_(film)	The_Boy_Next_Door_(film)	1	1	0	0.0	Rob Cohen	
+Alex_Cross_(film)	The_Hurricane_Heist	1	1	0	0.0	Rob Cohen	
+Alex_Strangelove	The_Skeleton_Twins	1	1	0	0.0	Craig Johnson	
+Alexander_and_the_Terrible,_Horrible,_No_Good,_Very_Bad_Day_(film)	Cedar_Rapids_(film)	1	1	0	0.0	Miguel Arteta	
+Alice_in_Wonderland_(2010_film)	Big_Eyes	1	1	0	0.0	Tim Burton	
+Alice_in_Wonderland_(2010_film)	Dark_Shadows_(film)	1	1	1	0.75	Tim Burton	Johnny Depp
+Alice_in_Wonderland_(2010_film)	Dumbo_(2019_film)	1	1	0	0.0	Tim Burton	
+Alice_in_Wonderland_(2010_film)	Miss_Peregrine's_Home_for_Peculiar_Children_(film)	1	1	0	0.0	Tim Burton	
+Alita:_Battle_Angel	Machete_(2010_film)	1	1	0	0.0	Robert Rodriguez	
+Alita:_Battle_Angel	Machete_Kills	1	1	0	0.0	Robert Rodriguez	
+Alita:_Battle_Angel	Sin_City:_A_Dame_to_Kill_For	1	1	0	0.0	Robert Rodriguez	
+Alita:_Battle_Angel	Spy_Kids:_All_the_Time_in_the_World	1	1	0	0.0	Robert Rodriguez	
+All_Is_Lost	Margin_Call	1	1	0	0.0	J.C. Chandor	
+All_Is_Lost	Triple_Frontier_(film)	1	1	0	0.0	J.C. Chandor	
+All_the_Money_in_the_World	Exodus:_Gods_and_Kings	1	1	0	0.0	Ridley Scott	
+All_the_Money_in_the_World	Prometheus_(2012_film)	1	1	0	0.0	Ridley Scott	
+All_the_Money_in_the_World	Robin_Hood_(2010_film)	1	1	0	0.0	Ridley Scott	
+All_the_Money_in_the_World	The_Counselor	1	1	0	0.0	Ridley Scott	
+All_the_Money_in_the_World	The_Martian_(film)	1	1	0	0.0	Ridley Scott	
+Allied_(film)	Flight_(2012_film)	1	1	0	0.0	Robert Zemeckis	
+Allied_(film)	The_Walk_(2015_film)	1	1	0	0.0	Robert Zemeckis	
+Allied_(film)	Welcome_to_Marwen	1	1	0	0.0	Robert Zemeckis	
+Aloha_(2015_film)	We_Bought_a_Zoo	1	1	0	0.0	Cameron Crowe	
+Alpha_(2018_film)	The_Book_of_Eli	1	1	0	0.0	Albert Hughes	
+American_Animals	The_Imposter_(2012_film)	1	1	0	0.0	Bart Layton	
+American_Assassin	Kill_the_Messenger_(2014_film)	1	1	0	0.0	Michael Cuesta	
+American_Hustle	Joy_(2015_film)	1	1	1	0.3333	David O. Russell	Bradley Cooper
+American_Hustle	Silver_Linings_Playbook	1	1	1	0.6667	David O. Russell	Bradley Cooper
+American_Hustle	The_Fighter	1	1	2	1.1667	David O. Russell	Christian Bale|Amy Adams
+American_Made_(film)	Edge_of_Tomorrow	1	1	1	1.0	Doug Liman	Tom Cruise
+American_Made_(film)	Fair_Game_(2010_film)	1	1	0	0.0	Doug Liman	
+American_Made_(film)	The_Wall_(2017_film)	1	1	0	0.0	Doug Liman	
+American_Sniper	Hereafter_(film)	1	1	0	0.0	Clint Eastwood	
+American_Sniper	J._Edgar	1	1	0	0.0	Clint Eastwood	
+American_Sniper	Jersey_Boys_(film)	1	1	0	0.0	Clint Eastwood	
+American_Sniper	Richard_Jewell_(film)	1	1	0	0.0	Clint Eastwood	
+American_Sniper	Sully_(film)	1	1	0	0.0	Clint Eastwood	
+American_Sniper	The_15:17_to_Paris	1	1	0	0.0	Clint Eastwood	
+American_Sniper	The_Mule_(2018_film)	1	1	1	0.75	Clint Eastwood	Bradley Cooper
+American_Ultra	Project_X_(2012_film)	1	1	0	0.0	Nima Nourizadeh	
+Anchorman_2:_The_Legend_Continues	The_Big_Short_(film)	1	1	0	0.0	Adam McKay	
+Anchorman_2:_The_Legend_Continues	The_Other_Guys	1	1	1	1.0	Adam McKay	Will Ferrell
+Anchorman_2:_The_Legend_Continues	Vice_(2018_film)	1	1	0	0.0	Adam McKay	
+And_So_It_Goes_(film)	Flipped_(2010_film)	1	1	0	0.0	Rob Reiner	
+And_So_It_Goes_(film)	The_Magic_of_Belle_Isle	1	1	0	0.0	Rob Reiner	
+Anna_(2019_feature_film)	The_Extraordinary_Adventures_of_Adèle_Blanc-Sec_(film)	1	1	0	0.0	Luc Besson	
+Anna_(2019_feature_film)	The_Family_(2013_film)	1	1	0	0.0	Luc Besson	
+Anna_(2019_feature_film)	Valerian_and_the_City_of_a_Thousand_Planets	1	1	0	0.0	Luc Besson	
+Annabelle_(film)	The_Silence_(2019_film)	1	1	0	0.0	John R. Leonetti	
+Annabelle_(film)	Wish_Upon	1	1	0	0.0	John R. Leonetti	
+Annie_(2014_film)	Easy_A	1	1	0	0.0	Will Gluck	
+Annie_(2014_film)	Friends_with_Benefits_(film)	1	1	0	0.0	Will Gluck	
+Another_Earth	I_Origins	1	1	0	0.0	Mike Cahill	
+Apollo_18_(film)	Open_Grave	1	1	0	0.0	Gonzalo López-Gallego	
+Argo_(2012_film)	Live_by_Night_(film)	1	1	1	1.0	Ben Affleck	Ben Affleck
+Argo_(2012_film)	The_Town_(2010_film)	1	1	1	1.0	Ben Affleck	Ben Affleck
+Arrival_(film)	Blade_Runner_2049	1	1	0	0.0	Denis Villeneuve	
+Arrival_(film)	Prisoners_(2013_film)	1	1	0	0.0	Denis Villeneuve	
+Arrival_(film)	Sicario_(2015_film)	1	1	0	0.0	Denis Villeneuve	
+As_Above,_So_Below_(film)	Devil_(2010_film)	1	1	0	0.0	John Erick Dowdle	
+As_Above,_So_Below_(film)	No_Escape_(2015_film)	1	1	0	0.0	John Erick Dowdle	
+Assassination_Games	Holiday_in_the_Wild	1	1	0	0.0	Ernie Barbarash	
+Assassination_Games	Six_Bullets	1	1	1	1.0	Ernie Barbarash	Jean-Claude Van Damme
+Atomic_Blonde	Hobbs_&_Shaw	1	1	0	0.0	David Leitch	
+August:_Osage_County_(film)	Burnt_(film)	1	1	0	0.0	John Wells	
+August:_Osage_County_(film)	The_Company_Men	1	1	0	0.0	John Wells	
+Baby_Driver	Scott_Pilgrim_vs._the_World	1	1	0	0.0	Edgar Wright	
+Baby_Driver	The_World's_End_(film)	1	1	0	0.0	Edgar Wright	
+Bachelorette_(film)	Sleeping_with_Other_People	1	1	0	0.0	Leslye Headland	
+Bad_Education_(2019_film)	Thoroughbreds_(2017_film)	1	1	0	0.0	Cory Finley	
+Bad_Moms	Jexi	2	2	0	0.0	Jon Lucas|Scott Moore	
+Bad_Samaritan_(film)	Geostorm	1	1	0	0.0	Dean Devlin	
+Bad_Santa_2	Mr._Popper's_Penguins_(film)	1	1	0	0.0	Mark Waters	
+Bad_Santa_2	Vampire_Academy_(film)	1	1	0	0.0	Mark Waters	
+Bad_Teacher	Jumanji:_The_Next_Level	1	1	0	0.0	Jake Kasdan	
+Bad_Teacher	Jumanji:_Welcome_to_the_Jungle	1	1	0	0.0	Jake Kasdan	
+Bad_Teacher	Sex_Tape_(film)	1	1	2	1.5	Jake Kasdan	Cameron Diaz|Jason Segel
+Bad_Times_at_the_El_Royale	The_Cabin_in_the_Woods	1	1	0	0.0	Drew Goddard	
+Barbershop:_The_Next_Cut	Girls_Trip	1	1	1	0.75	Malcolm D. Lee	Regina Hall
+Barbershop:_The_Next_Cut	Night_School_(2018_film)	1	1	0	0.0	Malcolm D. Lee	
+Barbershop:_The_Next_Cut	Scary_Movie_5	1	1	0	0.0	Malcolm D. Lee	
+Barbershop:_The_Next_Cut	The_Best_Man_Holiday	1	1	0	0.0	Malcolm D. Lee	
+Battle_of_the_Sexes_(2017_film)	Ruby_Sparks	2	2	0	0.0	Jonathan Dayton|Valerie Faris	
+Battleship_(film)	Deepwater_Horizon_(film)	1	1	0	0.0	Peter Berg	
+Battleship_(film)	Lone_Survivor	1	1	0	0.0	Peter Berg	
+Battleship_(film)	Mile_22	1	1	0	0.0	Peter Berg	
+Battleship_(film)	Patriots_Day_(film)	1	1	0	0.0	Peter Berg	
+Baywatch_(film)	Horrible_Bosses	1	1	0	0.0	Seth Gordon	
+Baywatch_(film)	Identity_Thief	1	1	0	0.0	Seth Gordon	
+Beastly_(film)	Cake_(2014_film)	1	1	0	0.0	Daniel Barnz	
+Beasts_of_No_Nation_(film)	Jane_Eyre_(2011_film)	1	1	0	0.0	Cary Joji Fukunaga	
+Before_I_Wake_(2016_film)	Doctor_Sleep_(2019_film)	1	1	0	0.0	Mike Flanagan	
+Before_I_Wake_(2016_film)	Gerald's_Game_(film)	1	1	0	0.0	Mike Flanagan	
+Before_I_Wake_(2016_film)	Hush_(2016_feature_film)	1	1	0	0.0	Mike Flanagan	
+Before_I_Wake_(2016_film)	Oculus_(film)	1	1	0	0.0	Mike Flanagan	
+Before_I_Wake_(2016_film)	Ouija:_Origin_of_Evil	1	1	0	0.0	Mike Flanagan	
+Before_Midnight	Bernie_(2011_film)	1	1	0	0.0	Richard Linklater	
+Before_Midnight	Boyhood_(2014_film)	1	1	1	0.6667	Richard Linklater	Ethan Hawke
+Before_Midnight	Everybody_Wants_Some!!_(film)	1	1	0	0.0	Richard Linklater	
+Before_Midnight	Last_Flag_Flying	1	1	0	0.0	Richard Linklater	
+Before_Midnight	Where'd_You_Go,_Bernadette_(film)	1	1	0	0.0	Richard Linklater	
+Begin_Again_(film)	Sing_Street	1	1	0	0.0	John Carney	
+Behind_the_Candelabra	Contagion_(2011_film)	1	1	1	0.75	Steven Soderbergh	Matt Damon
+Behind_the_Candelabra	Haywire_(2011_film)	1	1	0	0.0	Steven Soderbergh	
+Behind_the_Candelabra	Logan_Lucky	1	1	0	0.0	Steven Soderbergh	
+Behind_the_Candelabra	Magic_Mike	1	1	0	0.0	Steven Soderbergh	
+Behind_the_Candelabra	Side_Effects_(2013_film)	1	1	0	0.0	Steven Soderbergh	
+Behind_the_Candelabra	The_Laundromat_(2019_film)	1	1	0	0.0	Steven Soderbergh	
+Behind_the_Candelabra	Unsane	1	1	0	0.0	Steven Soderbergh	
+Being_Flynn	Grandma_(2015_film)	1	1	0	0.0	Paul Weitz	
+Being_Flynn	Little_Fockers	1	1	1	0.4167	Paul Weitz	Robert De Niro
+Beirut_(film)	Fractured_(2019_film)	1	1	0	0.0	Brad Anderson	
+Beirut_(film)	Stonehearst_Asylum	1	1	0	0.0	Brad Anderson	
+Beirut_(film)	The_Call_(2013_film)	1	1	0	0.0	Brad Anderson	
+Beirut_(film)	Vanishing_on_7th_Street	1	1	0	0.0	Brad Anderson	
+Ben_Is_Back	The_Odd_Life_of_Timothy_Green	1	1	0	0.0	Peter Hedges	
+Bernie_(2011_film)	Boyhood_(2014_film)	1	1	0	0.0	Richard Linklater	
+Bernie_(2011_film)	Everybody_Wants_Some!!_(film)	1	1	0	0.0	Richard Linklater	
+Bernie_(2011_film)	Last_Flag_Flying	1	1	0	0.0	Richard Linklater	
+Bernie_(2011_film)	Where'd_You_Go,_Bernadette_(film)	1	1	0	0.0	Richard Linklater	
+Big_Eyes	Dark_Shadows_(film)	1	1	0	0.0	Tim Burton	
+Big_Eyes	Dumbo_(2019_film)	1	1	0	0.0	Tim Burton	
+Big_Eyes	Miss_Peregrine's_Home_for_Peculiar_Children_(film)	1	1	0	0.0	Tim Burton	
+Billy_Lynn's_Long_Halftime_Walk_(film)	Gemini_Man_(film)	1	1	0	0.0	Ang Lee	
+Billy_Lynn's_Long_Halftime_Walk_(film)	Life_of_Pi_(film)	1	1	0	0.0	Ang Lee	
+Bird_Box_(film)	Serena_(2014_film)	1	1	0	0.0	Susanne Bier	
+Birdman_(film)	The_Revenant_(2015_film)	1	1	0	0.0	Alejandro G. Iñárritu	
+BlacKkKlansman	Oldboy_(2013_film)	1	1	0	0.0	Spike Lee	
+Black_Mass_(film)	Hostiles_(film)	1	1	0	0.0	Scott Cooper	
+Black_Mass_(film)	Out_of_the_Furnace	1	1	0	0.0	Scott Cooper	
+Black_Sea_(2014_film)	The_Eagle_(2011_film)	1	1	0	0.0	Kevin Macdonald	
+Black_Swan_(film)	Mother!	1	1	0	0.0	Darren Aronofsky	
+Black_Swan_(film)	Noah_(2014_film)	1	1	0	0.0	Darren Aronofsky	
+Black_and_Blue_(2019_film)	Meet_the_Blacks	1	1	0	0.0	Deon Taylor	
+Black_and_Blue_(2019_film)	The_Intruder_(2019_film)	1	1	0	0.0	Deon Taylor	
+Black_and_Blue_(2019_film)	Traffik_(film)	1	1	0	0.0	Deon Taylor	
+Blade_Runner_2049	Prisoners_(2013_film)	1	1	0	0.0	Denis Villeneuve	
+Blade_Runner_2049	Sicario_(2015_film)	1	1	0	0.0	Denis Villeneuve	
+Blair_Witch_(film)	Death_Note_(2017_film)	1	1	0	0.0	Adam Wingard	
+Blair_Witch_(film)	The_Guest_(2014_American_film)	1	1	0	0.0	Adam Wingard	
+Blair_Witch_(film)	You're_Next	1	1	0	0.0	Adam Wingard	
+Blended_(film)	Here_Comes_the_Boom	1	1	0	0.0	Frank Coraci	
+Blended_(film)	The_Ridiculous_6	1	1	1	1.0	Frank Coraci	Adam Sandler
+Blended_(film)	Zookeeper_(film)	1	1	0	0.0	Frank Coraci	
+Blue_Jasmine	Café_Society_(2016_film)	1	1	0	0.0	Woody Allen	
+Blue_Jasmine	Irrational_Man_(film)	1	1	0	0.0	Woody Allen	
+Blue_Jasmine	Magic_in_the_Moonlight	1	1	0	0.0	Woody Allen	
+Blue_Jasmine	Midnight_in_Paris	1	1	0	0.0	Woody Allen	
+Blue_Jasmine	To_Rome_with_Love_(film)	1	1	0	0.0	Woody Allen	
+Blue_Jasmine	Wonder_Wheel_(film)	1	1	0	0.0	Woody Allen	
+Blue_Jasmine	You_Will_Meet_a_Tall_Dark_Stranger	1	1	0	0.0	Woody Allen	
+Blue_Jay_(film)	Paddleton	1	1	1	0.75	Alex Lehmann	Mark Duplass
+Blue_Ruin	Green_Room_(film)	1	1	0	0.0	Jeremy Saulnier	
+Blue_Ruin	Hold_the_Dark	1	1	0	0.0	Jeremy Saulnier	
+Blue_Valentine_(film)	The_Light_Between_Oceans_(film)	1	1	0	0.0	Derek Cianfrance	
+Blue_Valentine_(film)	The_Place_Beyond_the_Pines	1	1	1	1.0	Derek Cianfrance	Ryan Gosling
+Bohemian_Rhapsody_(film)	Jack_the_Giant_Slayer	1	1	0	0.0	Bryan Singer	
+Bombshell_(2019_film)	Dinner_for_Schmucks	1	1	0	0.0	Jay Roach	
+Bombshell_(2019_film)	The_Campaign_(film)	1	1	0	0.0	Jay Roach	
+Bombshell_(2019_film)	Trumbo_(2015_film)	1	1	0	0.0	Jay Roach	
+Bone_Tomahawk	Brawl_in_Cell_Block_99	1	1	0	0.0	S. Craig Zahler	
+Bone_Tomahawk	Dragged_Across_Concrete	1	1	0	0.0	S. Craig Zahler	
+Boy_Erased	The_Gift_(2015_American_film)	1	1	1	0.3333	Joel Edgerton	Joel Edgerton
+Boyhood_(2014_film)	Everybody_Wants_Some!!_(film)	1	1	0	0.0	Richard Linklater	
+Boyhood_(2014_film)	Last_Flag_Flying	1	1	0	0.0	Richard Linklater	
+Boyhood_(2014_film)	Where'd_You_Go,_Bernadette_(film)	1	1	0	0.0	Richard Linklater	
+Braven	Office_Uprising	1	1	0	0.0	Lin Oeding	
+Brawl_in_Cell_Block_99	Dragged_Across_Concrete	1	1	1	0.75	S. Craig Zahler	Vince Vaughn
+Breaking_In_(2018_film)	Survivor_(film)	1	1	0	0.0	James McTeigue	
+Breaking_In_(2018_film)	The_Raven_(2012_film)	1	1	0	0.0	James McTeigue	
+Breathe_In_(film)	Equals_(film)	1	1	0	0.0	Drake Doremus	
+Breathe_In_(film)	Like_Crazy	1	1	1	1.0	Drake Doremus	Felicity Jones
+Breathe_In_(film)	Newness	1	1	0	0.0	Drake Doremus	
+Bridesmaids_(2011_film)	Ghostbusters_(2016_film)	1	1	1	0.75	Paul Feig	Kristen Wiig
+Bridesmaids_(2011_film)	Last_Christmas_(film)	1	1	0	0.0	Paul Feig	
+Bridesmaids_(2011_film)	Spy_(2015_film)	1	1	1	0.4167	Paul Feig	Rose Byrne
+Bridesmaids_(2011_film)	The_Heat_(film)	1	1	0	0.0	Paul Feig	
+Bridge_of_Spies_(film)	Lincoln_(film)	1	1	0	0.0	Steven Spielberg	
+Bridge_of_Spies_(film)	Ready_Player_One_(film)	1	1	0	0.0	Steven Spielberg	
+Bridge_of_Spies_(film)	The_Post_(film)	1	1	1	0.75	Steven Spielberg	Tom Hanks
+Bridge_of_Spies_(film)	War_Horse_(film)	1	1	0	0.0	Steven Spielberg	
+Bright_(film)	End_of_Watch	1	1	0	0.0	David Ayer	
+Bright_(film)	Fury_(2014_film)	1	1	0	0.0	David Ayer	
+Bright_(film)	Sabotage_(2014_film)	1	1	0	0.0	David Ayer	
+Broken_City	The_Book_of_Eli	1	1	0	0.0	Allen Hughes	
+Burnt_(film)	The_Company_Men	1	1	0	0.0	John Wells	
+Butter_(2011_film)	She's_Out_of_My_League	1	1	0	0.0	Jim Field Smith	
+By_the_Sea_(2015_film)	First_They_Killed_My_Father_(film)	1	1	0	0.0	Angelina Jolie	
+By_the_Sea_(2015_film)	In_the_Land_of_Blood_and_Honey	1	1	0	0.0	Angelina Jolie	
+By_the_Sea_(2015_film)	Unbroken_(film)	1	1	0	0.0	Angelina Jolie	
+Byzantium_(film)	Greta_(2018_film)	1	1	0	0.0	Neil Jordan	
+CHiPs_(film)	Hit_and_Run_(2012_film)	1	1	1	0.75	Dax Shepard	Dax Shepard
+Café_Society_(2016_film)	Irrational_Man_(film)	1	1	0	0.0	Woody Allen	
+Café_Society_(2016_film)	Magic_in_the_Moonlight	1	1	0	0.0	Woody Allen	
+Café_Society_(2016_film)	Midnight_in_Paris	1	1	0	0.0	Woody Allen	
+Café_Society_(2016_film)	To_Rome_with_Love_(film)	1	1	1	0.6667	Woody Allen	Jesse Eisenberg
+Café_Society_(2016_film)	Wonder_Wheel_(film)	1	1	0	0.0	Woody Allen	
+Café_Society_(2016_film)	You_Will_Meet_a_Tall_Dark_Stranger	1	1	0	0.0	Woody Allen	
+Call_Me_by_Your_Name_(film)	Suspiria_(2018_film)	1	1	0	0.0	Luca Guadagnino	
+Can_You_Ever_Forgive_Me?	The_Diary_of_a_Teenage_Girl	1	1	0	0.0	Marielle Heller	
+Captain_Phillips_(film)	Green_Zone_(film)	1	1	0	0.0	Paul Greengrass	
+Captive_State	Rise_of_the_Planet_of_the_Apes	1	1	0	0.0	Rupert Wyatt	
+Captive_State	The_Gambler_(2014_film)	1	1	1	0.6667	Rupert Wyatt	John Goodman
+Carol_(film)	Dark_Waters_(2019_film)	1	1	0	0.0	Todd Haynes	
+Catfish_(film)	Nerve_(2016_film)	2	2	0	0.0	Henry Joost|Ariel Schulman	
+Cats_&_Dogs:_The_Revenge_of_Kitty_Galore	Journey_2:_The_Mysterious_Island	1	1	0	0.0	Brad Peyton	
+Cats_&_Dogs:_The_Revenge_of_Kitty_Galore	Rampage_(2018_film)	1	1	0	0.0	Brad Peyton	
+Cats_&_Dogs:_The_Revenge_of_Kitty_Galore	San_Andreas_(film)	1	1	0	0.0	Brad Peyton	
+Cats_(2019_film)	Les_Misérables_(2012_film)	1	1	0	0.0	Tom Hooper	
+Cats_(2019_film)	The_Danish_Girl_(film)	1	1	0	0.0	Tom Hooper	
+Celeste_and_Jesse_Forever	The_Age_of_Adaline	1	1	0	0.0	Lee Toland Krieger	
+Cell_(film)	Paranormal_Activity_2	1	1	0	0.0	Tod Williams	
+Central_Intelligence	Skyscraper_(2018_film)	1	1	1	1.0	Rawson Marshall Thurber	Dwayne Johnson
+Central_Intelligence	We're_the_Millers	1	1	0	0.0	Rawson Marshall Thurber	
+Centurion_(film)	Hellboy_(2019_film)	1	1	0	0.0	Neil Marshall	
+Certain_Women_(film)	First_Cow	1	1	0	0.0	Kelly Reichardt	
+Certain_Women_(film)	Meek's_Cutoff_(film)	1	1	1	1.0	Kelly Reichardt	Michelle Williams
+Certain_Women_(film)	Night_Moves_(2013_film)	1	1	0	0.0	Kelly Reichardt	
+Chappie_(film)	Elysium_(film)	1	1	1	0.6667	Neill Blomkamp	Sharlto Copley
+Charlie's_Angels_(2019_film)	Movie_43	1	1	0	0.0	Elizabeth Banks	
+Charlie_St._Cloud	Pride_and_Prejudice_and_Zombies_(film)	1	1	0	0.0	Burr Steers	
+Chasing_Mavericks	The_Chronicles_of_Narnia:_The_Voyage_of_the_Dawn_Treader	1	1	0	0.0	Michael Apted	
+Chasing_Mavericks	Unlocked_(2017_film)	1	1	0	0.0	Michael Apted	
+Chef_(2014_film)	Cowboys_&_Aliens	1	1	0	0.0	Jon Favreau	
+Child's_Play_(2019_film)	Polaroid_(film)	1	1	0	0.0	Lars Klevberg	
+Child_44_(film)	Life_(2017_film)	1	1	0	0.0	Daniel Espinosa	
+Child_44_(film)	Safe_House_(2012_film)	1	1	0	0.0	Daniel Espinosa	
+Christopher_Robin_(film)	Machine_Gun_Preacher	1	1	0	0.0	Marc Forster	
+Christopher_Robin_(film)	World_War_Z_(film)	1	1	0	0.0	Marc Forster	
+Chronicle_(film)	Fantastic_Four_(2015_film)	1	1	1	0.3333	Josh Trank	Michael B. Jordan
+Cinderella_(2015_American_film)	Jack_Ryan:_Shadow_Recruit	1	1	0	0.0	Kenneth Branagh	
+Cinderella_(2015_American_film)	Murder_on_the_Orient_Express_(2017_film)	1	1	0	0.0	Kenneth Branagh	
+City_of_Lies	Runner_Runner	1	1	0	0.0	Brad Furman	
+City_of_Lies	The_Infiltrator_(2016_film)	1	1	0	0.0	Brad Furman	
+City_of_Lies	The_Lincoln_Lawyer_(film)	1	1	0	0.0	Brad Furman	
+Clash_of_the_Titans_(2010_film)	Grimsby_(film)	1	1	0	0.0	Louis Leterrier	
+Clash_of_the_Titans_(2010_film)	Now_You_See_Me_(film)	1	1	0	0.0	Louis Leterrier	
+Closed_Circuit_(2013_film)	The_Goldfinch_(film)	1	1	0	0.0	John Crowley	
+Cloud_Atlas_(film)	Jupiter_Ascending	2	2	0	0.0	Lana Wachowski|Lilly Wachowski	
+Clown_(film)	Cop_Car_(film)	1	1	0	0.0	Jon Watts	
+Cold_in_July_(film)	In_the_Shadow_of_the_Moon_(2019_film)	1	1	0	0.0	Jim Mickle	
+Cold_in_July_(film)	Stake_Land	1	1	0	0.0	Jim Mickle	
+Cold_in_July_(film)	We_Are_What_We_Are_(2013_film)	1	1	0	0.0	Jim Mickle	
+Colette_(2018_film)	Earthquake_Bird	1	1	0	0.0	Wash Westmoreland	
+Colette_(2018_film)	Still_Alice	1	1	0	0.0	Wash Westmoreland	
+Collateral_Beauty	Hope_Springs_(2012_film)	1	1	0	0.0	David Frankel	
+Collateral_Beauty	The_Big_Year	1	1	0	0.0	David Frankel	
+Collide_(2016_film)	Welcome_to_the_Punch	1	1	0	0.0	Eran Creevy	
+Colossal_(film)	Open_Windows_(film)	1	1	0	0.0	Nacho Vigalondo	
+Compliance_(film)	Z_for_Zachariah_(film)	1	1	0	0.0	Craig Zobel	
+Concussion_(2015_film)	Mark_Felt:_The_Man_Who_Brought_Down_the_White_House	1	1	0	0.0	Peter Landesman	
+Concussion_(2015_film)	Parkland_(film)	1	1	0	0.0	Peter Landesman	
+Contagion_(2011_film)	Haywire_(2011_film)	1	1	0	0.0	Steven Soderbergh	
+Contagion_(2011_film)	Logan_Lucky	1	1	0	0.0	Steven Soderbergh	
+Contagion_(2011_film)	Magic_Mike	1	1	0	0.0	Steven Soderbergh	
+Contagion_(2011_film)	Side_Effects_(2013_film)	1	1	1	0.3333	Steven Soderbergh	Jude Law
+Contagion_(2011_film)	The_Laundromat_(2019_film)	1	1	0	0.0	Steven Soderbergh	
+Contagion_(2011_film)	Unsane	1	1	0	0.0	Steven Soderbergh	
+Contraband_(2012_film)	Everest_(2015_film)	1	1	0	0.0	Baltasar Kormákur	
+Cop_Out_(2010_film)	Jay_and_Silent_Bob_Reboot	1	1	0	0.0	Kevin Smith	
+Cop_Out_(2010_film)	Red_State_(2011_film)	1	1	0	0.0	Kevin Smith	
+Cop_Out_(2010_film)	Tusk_(2014_film)	1	1	0	0.0	Kevin Smith	
+Cop_Out_(2010_film)	Yoga_Hosers	1	1	0	0.0	Kevin Smith	
+Country_Strong	Endless_Love_(2014_American_film)	1	1	0	0.0	Shana Feste	
+Courageous_(film)	War_Room_(film)	1	1	0	0.0	Alex Kendrick	
+Crawl_(2019_film)	Horns_(film)	1	1	0	0.0	Alexandre Aja	
+Crawl_(2019_film)	Piranha_3D	1	1	0	0.0	Alexandre Aja	
+Crawl_(2019_film)	The_9th_Life_of_Louis_Drax	1	1	0	0.0	Alexandre Aja	
+Crazy,_Stupid,_Love	Focus_(2015_film)	2	2	0	0.0	Glenn Ficarra|John Requa	
+Crazy,_Stupid,_Love	Whiskey_Tango_Foxtrot_(film)	2	2	0	0.0	Glenn Ficarra|John Requa	
+Crazy_Rich_Asians	G.I._Joe:_Retaliation	1	1	0	0.0	Jon M. Chu	
+Crazy_Rich_Asians	Step_Up_3D	1	1	0	0.0	Jon M. Chu	
+Creed_(film)	Fruitvale_Station	1	1	1	1.0	Ryan Coogler	Michael B. Jordan
+Creep_(2014_film)	Creep_2	1	1	1	0.75	Patrick Brice	Mark Duplass
+Creep_(2014_film)	The_Overnight	1	1	0	0.0	Patrick Brice	
+Creep_2	The_Overnight	1	1	0	0.0	Patrick Brice	
+Criminal_(2016_film)	The_Angel_(2018_film)	1	1	0	0.0	Ariel Vromen	
+Criminal_(2016_film)	The_Iceman_(film)	1	1	0	0.0	Ariel Vromen	
+Crimson_Peak	Pacific_Rim_(film)	1	1	0	0.0	Guillermo del Toro	
+Crimson_Peak	The_Shape_of_Water	1	1	0	0.0	Guillermo del Toro	
+Cult_of_Chucky	Curse_of_Chucky	1	1	0	0.0	Don Mancini	
+Cyrus_(2010_film)	Jeff,_Who_Lives_at_Home	2	2	0	0.0	Jay Duplass|Mark Duplass	
+Daddy's_Home_(film)	Daddy's_Home_2	1	1	2	1.5	Sean Anders	Mark Wahlberg|Will Ferrell
+Daddy's_Home_(film)	Instant_Family	1	1	1	0.75	Sean Anders	Mark Wahlberg
+Daddy's_Home_(film)	That's_My_Boy_(2012_film)	1	1	0	0.0	Sean Anders	
+Daddy's_Home_2	Instant_Family	1	1	1	0.75	Sean Anders	Mark Wahlberg
+Daddy's_Home_2	That's_My_Boy_(2012_film)	1	1	0	0.0	Sean Anders	
+Dallas_Buyers_Club	Demolition_(2015_film)	1	1	0	0.0	Jean-Marc Vallée	
+Dallas_Buyers_Club	Wild_(2014_film)	1	1	0	0.0	Jean-Marc Vallée	
+Danny_Collins_(film)	Life_Itself_(2018_film)	1	1	1	0.4167	Dan Fogelman	Annette Bening
+Dark_Shadows_(film)	Dumbo_(2019_film)	1	1	0	0.0	Tim Burton	
+Dark_Shadows_(film)	Miss_Peregrine's_Home_for_Peculiar_Children_(film)	1	1	1	0.6667	Tim Burton	Eva Green
+Dark_Skies_(2013_film)	Legion_(2010_film)	1	1	0	0.0	Scott Stewart	
+Dark_Skies_(2013_film)	Priest_(2011_film)	1	1	0	0.0	Scott Stewart	
+Date_Night	Night_at_the_Museum:_Secret_of_the_Tomb	1	1	0	0.0	Shawn Levy	
+Date_Night	Real_Steel	1	1	0	0.0	Shawn Levy	
+Date_Night	The_Internship	1	1	0	0.0	Shawn Levy	
+Date_Night	This_Is_Where_I_Leave_You	1	1	1	0.5	Shawn Levy	Tina Fey
+Dawn_of_the_Planet_of_the_Apes	Let_Me_In_(film)	1	1	0	0.0	Matt Reeves	
+Dawn_of_the_Planet_of_the_Apes	War_for_the_Planet_of_the_Apes	1	1	1	0.6667	Matt Reeves	Andy Serkis
+Dead_Man_Down	Flatliners_(2017_film)	1	1	0	0.0	Niels Arden Oplev	
+Dear_John_(2010_film)	Safe_Haven_(film)	1	1	0	0.0	Lasse Hallström	
+Dear_John_(2010_film)	The_Hundred-Foot_Journey_(film)	1	1	0	0.0	Lasse Hallström	
+Dear_John_(2010_film)	The_Nutcracker_and_the_Four_Realms	1	1	0	0.0	Lasse Hallström	
+Death_Note_(2017_film)	The_Guest_(2014_American_film)	1	1	0	0.0	Adam Wingard	
+Death_Note_(2017_film)	You're_Next	1	1	0	0.0	Adam Wingard	
+Death_Wish_(2018_film)	Knock_Knock_(2015_film)	1	1	0	0.0	Eli Roth	
+Death_Wish_(2018_film)	The_Green_Inferno_(film)	1	1	0	0.0	Eli Roth	
+Death_Wish_(2018_film)	The_House_with_a_Clock_in_Its_Walls_(film)	1	1	0	0.0	Eli Roth	
+Deepwater_Horizon_(film)	Lone_Survivor	1	1	1	1.0	Peter Berg	Mark Wahlberg
+Deepwater_Horizon_(film)	Mile_22	1	1	1	1.0	Peter Berg	Mark Wahlberg
+Deepwater_Horizon_(film)	Patriots_Day_(film)	1	1	1	1.0	Peter Berg	Mark Wahlberg
+Deliver_Us_from_Evil_(2014_film)	Sinister_(film)	1	1	0	0.0	Scott Derrickson	
+Delivery_Man_(film)	Unfinished_Business_(2015_film)	1	1	1	1.0	Ken Scott	Vince Vaughn
+Demolition_(2015_film)	Wild_(2014_film)	1	1	0	0.0	Jean-Marc Vallée	
+Destroyer_(2018_film)	The_Invitation_(2015_film)	1	1	0	0.0	Karyn Kusama	
+Detective_Pikachu_(film)	Gulliver's_Travels_(2010_film)	1	1	0	0.0	Rob Letterman	
+Detroit_(film)	Zero_Dark_Thirty	1	1	0	0.0	Kathryn Bigelow	
+Devil's_Due_(film)	Ready_or_Not_(2019_film)	2	2	0	0.0	Matt Bettinelli-Olpin|Tyler Gillett	
+Devil's_Due_(film)	Southbound_(2015_film)	2	2	0	0.0	Matt Bettinelli-Olpin|Tyler Gillett	
+Devil's_Due_(film)	V/H/S	2	2	0	0.0	Matt Bettinelli-Olpin|Tyler Gillett	
+Devil's_Pass	Skiptrace_(film)	1	1	0	0.0	Renny Harlin	
+Devil's_Pass	The_Legend_of_Hercules	1	1	0	0.0	Renny Harlin	
+Devil_(2010_film)	No_Escape_(2015_film)	1	1	0	0.0	John Erick Dowdle	
+Diary_of_a_Wimpy_Kid:_Dog_Days_(film)	Diary_of_a_Wimpy_Kid:_Rodrick_Rules_(2011_film)	1	1	3	1.8333	David Bowers	Zachary Gordon|Robert Capron|Devon Bostick
+Dinner_for_Schmucks	The_Campaign_(film)	1	1	0	0.0	Jay Roach	
+Dinner_for_Schmucks	Trumbo_(2015_film)	1	1	0	0.0	Jay Roach	
+Divergent_(film)	Limitless_(film)	1	1	0	0.0	Neil Burger	
+Divergent_(film)	The_Upside	1	1	0	0.0	Neil Burger	
+Django_Unchained	Once_Upon_a_Time_in_Hollywood	1	1	1	0.6667	Quentin Tarantino	Leonardo DiCaprio
+Django_Unchained	The_Hateful_Eight	1	1	0	0.0	Quentin Tarantino	
+Doctor_Sleep_(2019_film)	Gerald's_Game_(film)	1	1	0	0.0	Mike Flanagan	
+Doctor_Sleep_(2019_film)	Hush_(2016_feature_film)	1	1	0	0.0	Mike Flanagan	
+Doctor_Sleep_(2019_film)	Oculus_(film)	1	1	0	0.0	Mike Flanagan	
+Doctor_Sleep_(2019_film)	Ouija:_Origin_of_Evil	1	1	0	0.0	Mike Flanagan	
+Dolemite_Is_My_Name	Footloose_(2011_film)	1	1	0	0.0	Craig Brewer	
+Don't_Breathe	Evil_Dead_(2013_film)	1	1	1	0.75	Fede Alvarez	Jane Levy
+Don't_Breathe	The_Girl_in_the_Spider's_Web_(film)	1	1	0	0.0	Fede Alvarez	
+Don't_Worry,_He_Won't_Get_Far_on_Foot	Promised_Land_(2012_film)	1	1	0	0.0	Gus Van Sant	
+Don't_Worry,_He_Won't_Get_Far_on_Foot	Restless_(2011_film)	1	1	0	0.0	Gus Van Sant	
+Don't_Worry,_He_Won't_Get_Far_on_Foot	The_Sea_of_Trees	1	1	0	0.0	Gus Van Sant	
+Dora_and_the_Lost_City_of_Gold	The_Muppets_(2011_film)	1	1	0	0.0	James Bobin	
+Down_a_Dark_Hall_(film)	Red_Lights_(2012_film)	1	1	0	0.0	Rodrigo Cortés	
+Downsizing_(film)	Nebraska_(film)	1	1	0	0.0	Alexander Payne	
+Downsizing_(film)	The_Descendants	1	1	0	0.0	Alexander Payne	
+Draft_Day	No_Strings_Attached_(film)	1	1	0	0.0	Ivan Reitman	
+Drive_(2011_film)	Only_God_Forgives	1	1	1	1.0	Nicolas Winding Refn	Ryan Gosling
+Drive_(2011_film)	The_Neon_Demon	1	1	0	0.0	Nicolas Winding Refn	
+Due_Date	Joker_(2019_film)	1	1	0	0.0	Todd Phillips	
+Due_Date	The_Hangover_Part_II	1	1	1	0.5	Todd Phillips	Zach Galifianakis
+Due_Date	War_Dogs_(2016_film)	1	1	0	0.0	Todd Phillips	
+Dumb_and_Dumber_To	Green_Book_(film)	1	1	0	0.0	Peter Farrelly	
+Dumb_and_Dumber_To	Hall_Pass	2	2	0	0.0	Peter Farrelly|Bobby Farrelly	
+Dumb_and_Dumber_To	The_Three_Stooges_(2012_film)	2	2	0	0.0	Peter Farrelly|Bobby Farrelly	
+Dumbo_(2019_film)	Miss_Peregrine's_Home_for_Peculiar_Children_(film)	1	1	0	0.0	Tim Burton	
+Dumplin'_(film)	Hot_Pursuit_(2015_film)	1	1	0	0.0	Anne Fletcher	
+Dumplin'_(film)	The_Guilt_Trip_(film)	1	1	0	0.0	Anne Fletcher	
+Dunkirk_(2017_film)	Inception	1	1	0	0.0	Christopher Nolan	
+Dunkirk_(2017_film)	Interstellar_(film)	1	1	0	0.0	Christopher Nolan	
+Dunkirk_(2017_film)	The_Dark_Knight_Rises	1	1	0	0.0	Christopher Nolan	
+Earth_to_Echo	Teenage_Mutant_Ninja_Turtles:_Out_of_the_Shadows	1	1	0	0.0	Dave Green	
+Earthquake_Bird	Still_Alice	1	1	0	0.0	Wash Westmoreland	
+Easy_A	Friends_with_Benefits_(film)	1	1	0	0.0	Will Gluck	
+Eddie_the_Eagle_(film)	Rocketman_(film)	1	1	1	1.0	Dexter Fletcher	Taron Egerton
+Edge_of_Darkness_(2010_film)	Green_Lantern_(film)	1	1	0	0.0	Martin Campbell	
+Edge_of_Darkness_(2010_film)	The_Foreigner_(2017_film)	1	1	0	0.0	Martin Campbell	
+Edge_of_Tomorrow	Fair_Game_(2010_film)	1	1	0	0.0	Doug Liman	
+Edge_of_Tomorrow	The_Wall_(2017_film)	1	1	0	0.0	Doug Liman	
+Eli_(2019_film)	Sinister_2	1	1	0	0.0	Ciarán Foy	
+Empire_State_(2013_film)	The_Son_of_No_One	1	1	0	0.0	Dito Montiel	
+End_of_Watch	Fury_(2014_film)	1	1	0	0.0	David Ayer	
+End_of_Watch	Sabotage_(2014_film)	1	1	0	0.0	David Ayer	
+Ender's_Game_(film)	Official_Secrets	1	1	0	0.0	Gavin Hood	
+Entebbe_(film)	RoboCop_(2014_film)	1	1	0	0.0	José Padilha	
+Equals_(film)	Like_Crazy	1	1	0	0.0	Drake Doremus	
+Equals_(film)	Newness	1	1	1	1.0	Drake Doremus	Nicholas Hoult
+Escape_Plan_(film)	The_Rite_(2011_film)	1	1	0	0.0	Mikael Håfström	
+Escape_Room_(2019_film)	The_Taking_of_Deborah_Logan	1	1	0	0.0	Adam Robitel	
+Everly_(film)	Knights_of_Badassdom	1	1	0	0.0	Joe Lynch	
+Everly_(film)	Mayhem_(film)	1	1	0	0.0	Joe Lynch	
+Everly_(film)	Point_Blank_(2019_film)	1	1	0	0.0	Joe Lynch	
+Every_Day_(2018_film)	The_Vow_(2012_film)	1	1	0	0.0	Michael Sucsy	
+Everybody_Wants_Some!!_(film)	Last_Flag_Flying	1	1	0	0.0	Richard Linklater	
+Everybody_Wants_Some!!_(film)	Where'd_You_Go,_Bernadette_(film)	1	1	0	0.0	Richard Linklater	
+Evil_Dead_(2013_film)	The_Girl_in_the_Spider's_Web_(film)	1	1	0	0.0	Fede Alvarez	
+Exodus:_Gods_and_Kings	Prometheus_(2012_film)	1	1	0	0.0	Ridley Scott	
+Exodus:_Gods_and_Kings	Robin_Hood_(2010_film)	1	1	0	0.0	Ridley Scott	
+Exodus:_Gods_and_Kings	The_Counselor	1	1	0	0.0	Ridley Scott	
+Exodus:_Gods_and_Kings	The_Martian_(film)	1	1	0	0.0	Ridley Scott	
+Extraordinary_Measures_(film)	So_Undercover	1	1	0	0.0	Tom Vaughan	
+Extraordinary_Measures_(film)	Some_Kind_of_Beautiful	1	1	0	0.0	Tom Vaughan	
+Fair_Game_(2010_film)	The_Wall_(2017_film)	1	1	0	0.0	Doug Liman	
+Fallen_(2016_film)	The_Lucky_One_(film)	1	1	0	0.0	Scott Hicks	
+Falling_Inn_Love	Furry_Vengeance	1	1	0	0.0	Roger Kumble	
+Fantastic_Beasts_and_Where_to_Find_Them_(film)	Harry_Potter_and_the_Deathly_Hallows_–_Part_2	1	1	0	0.0	David Yates	
+Fantastic_Beasts_and_Where_to_Find_Them_(film)	The_Legend_of_Tarzan_(film)	1	1	0	0.0	David Yates	
+Faster_(2010_film)	The_Hate_U_Give_(film)	1	1	0	0.0	George Tillman Jr.	
+Faster_(2010_film)	The_Longest_Ride_(film)	1	1	0	0.0	George Tillman Jr.	
+Fathers_and_Daughters	Playing_for_Keeps_(2012_film)	1	1	0	0.0	Gabriele Muccino	
+Fifty_Shades_of_Black	Naked_(2017_film)	1	1	1	1.0	Michael Tiddes	Marlon Wayans
+Final_Destination_5	Into_the_Storm_(2014_film)	1	1	0	0.0	Steven Quale	
+Final_Score_(2018_film)	Heist_(2015_film)	1	1	0	0.0	Scott Mann	
+First_Cow	Meek's_Cutoff_(film)	1	1	0	0.0	Kelly Reichardt	
+First_Cow	Night_Moves_(2013_film)	1	1	0	0.0	Kelly Reichardt	
+First_Man_(film)	La_La_Land	1	1	1	1.0	Damien Chazelle	Ryan Gosling
+First_Man_(film)	Whiplash_(2014_film)	1	1	0	0.0	Damien Chazelle	
+First_They_Killed_My_Father_(film)	In_the_Land_of_Blood_and_Honey	1	1	0	0.0	Angelina Jolie	
+First_They_Killed_My_Father_(film)	Unbroken_(film)	1	1	0	0.0	Angelina Jolie	
+Flight_(2012_film)	The_Walk_(2015_film)	1	1	0	0.0	Robert Zemeckis	
+Flight_(2012_film)	Welcome_to_Marwen	1	1	0	0.0	Robert Zemeckis	
+Flipped_(2010_film)	The_Magic_of_Belle_Isle	1	1	1	0.6667	Rob Reiner	Madeline Carroll
+Focus_(2015_film)	Whiskey_Tango_Foxtrot_(film)	2	2	1	0.5	Glenn Ficarra|John Requa	Margot Robbie
+Ford_v_Ferrari	Knight_and_Day	1	1	0	0.0	James Mangold	
+Foxcatcher	Moneyball_(film)	1	1	0	0.0	Bennett Miller	
+Fractured_(2019_film)	Stonehearst_Asylum	1	1	0	0.0	Brad Anderson	
+Fractured_(2019_film)	The_Call_(2013_film)	1	1	0	0.0	Brad Anderson	
+Fractured_(2019_film)	Vanishing_on_7th_Street	1	1	0	0.0	Brad Anderson	
+Frances_Ha	Greenberg_(film)	1	1	1	0.75	Noah Baumbach	Greta Gerwig
+Frances_Ha	Marriage_Story	1	1	1	0.6667	Noah Baumbach	Adam Driver
+Frances_Ha	Mistress_America	1	1	1	1.0	Noah Baumbach	Greta Gerwig
+Frances_Ha	The_Meyerowitz_Stories	1	1	0	0.0	Noah Baumbach	
+Frances_Ha	While_We're_Young_(film)	1	1	1	0.3333	Noah Baumbach	Adam Driver
+Free_State_of_Jones_(film)	Ocean's_8	1	1	0	0.0	Gary Ross	
+Free_State_of_Jones_(film)	The_Hunger_Games_(film)	1	1	0	0.0	Gary Ross	
+Fright_Night_(2011_film)	I,_Tonya	1	1	0	0.0	Craig Gillespie	
+Fright_Night_(2011_film)	Million_Dollar_Arm	1	1	0	0.0	Craig Gillespie	
+Fright_Night_(2011_film)	The_Finest_Hours_(2016_film)	1	1	0	0.0	Craig Gillespie	
+From_Paris_with_Love_(film)	Peppermint_(2018_film)	1	1	0	0.0	Pierre Morel	
+From_Paris_with_Love_(film)	The_Gunman_(2015_film)	1	1	0	0.0	Pierre Morel	
+Frozen_(2010_American_film)	Hatchet_II	1	1	0	0.0	Adam Green	
+Furious_7	Insidious_(film)	1	1	0	0.0	James Wan	
+Furious_7	The_Conjuring	1	1	0	0.0	James Wan	
+Furious_7	The_Conjuring_2	1	1	0	0.0	James Wan	
+Fury_(2014_film)	Sabotage_(2014_film)	1	1	0	0.0	David Ayer	
+G.I._Joe:_Retaliation	Step_Up_3D	1	1	0	0.0	Jon M. Chu	
+Gambit_(2012_film)	The_Best_of_Me_(2014_film)	1	1	0	0.0	Michael Hoffman	
+Game_Night_(film)	Vacation_(2015_film)	2	2	0	0.0	John Francis Daley|Jonathan Goldstein	
+Game_Over,_Man!	Murder_Mystery_(film)	1	1	0	0.0	Kyle Newacheck	
+Gangster_Squad_(film)	Venom_(2018_film)	1	1	0	0.0	Ruben Fleischer	
+Gangster_Squad_(film)	Zombieland:_Double_Tap	1	1	1	0.3333	Ruben Fleischer	Emma Stone
+Gemini_Man_(film)	Life_of_Pi_(film)	1	1	0	0.0	Ang Lee	
+Gerald's_Game_(film)	Hush_(2016_feature_film)	1	1	0	0.0	Mike Flanagan	
+Gerald's_Game_(film)	Oculus_(film)	1	1	0	0.0	Mike Flanagan	
+Gerald's_Game_(film)	Ouija:_Origin_of_Evil	1	1	0	0.0	Mike Flanagan	
+Get_Hard	Holmes_&_Watson	1	1	1	1.0	Etan Cohen	Will Ferrell
+Get_Him_to_the_Greek	Neighbors_(2014_film)	1	1	0	0.0	Nicholas Stoller	
+Get_Him_to_the_Greek	Neighbors_2:_Sorority_Rising	1	1	0	0.0	Nicholas Stoller	
+Get_Him_to_the_Greek	The_Five-Year_Engagement	1	1	0	0.0	Nicholas Stoller	
+Get_On_Up_(film)	Ma_(2019_film)	1	1	0	0.0	Tate Taylor	
+Get_On_Up_(film)	The_Girl_on_the_Train_(2016_film)	1	1	0	0.0	Tate Taylor	
+Get_On_Up_(film)	The_Help_(film)	1	1	0	0.0	Tate Taylor	
+Get_Out	Us_(2019_film)	1	1	0	0.0	Jordan Peele	
+Get_the_Gringo	Rambo:_Last_Blood	1	1	0	0.0	Adrian Grunberg	
+Ghost_Rider:_Spirit_of_Vengeance	Mom_and_Dad_(2017_film)	1	1	1	0.75	Brian Taylor	Nicolas Cage
+Ghost_Rider:_Spirit_of_Vengeance	The_Vatican_Tapes	1	1	0	0.0	Mark Neveldine	
+Ghost_in_the_Shell_(2017_film)	Snow_White_and_the_Huntsman	1	1	0	0.0	Rupert Sanders	
+Ghostbusters_(2016_film)	Last_Christmas_(film)	1	1	0	0.0	Paul Feig	
+Ghostbusters_(2016_film)	Spy_(2015_film)	1	1	1	1.0	Paul Feig	Melissa McCarthy
+Ghostbusters_(2016_film)	The_Heat_(film)	1	1	1	0.6667	Paul Feig	Melissa McCarthy
+Gifted_(2017_film)	The_Amazing_Spider-Man_(film)	1	1	0	0.0	Marc Webb	
+Gifted_(2017_film)	The_Only_Living_Boy_in_New_York_(film)	1	1	0	0.0	Marc Webb	
+Girls_Trip	Night_School_(2018_film)	1	1	0	0.0	Malcolm D. Lee	
+Girls_Trip	Scary_Movie_5	1	1	0	0.0	Malcolm D. Lee	
+Girls_Trip	The_Best_Man_Holiday	1	1	0	0.0	Malcolm D. Lee	
+Godzilla_(2014_film)	Rogue_One	1	1	0	0.0	Gareth Edwards	
+Going_in_Style_(2017_film)	Wish_I_Was_Here	1	1	0	0.0	Zach Braff	
+Gone_Girl_(film)	The_Girl_with_the_Dragon_Tattoo_(2011_film)	1	1	0	0.0	David Fincher	
+Gone_Girl_(film)	The_Social_Network	1	1	0	0.0	David Fincher	
+Good_Kill	In_Time	1	1	0	0.0	Andrew Niccol	
+Good_Kill	The_Host_(2013_film)	1	1	0	0.0	Andrew Niccol	
+Good_Time_(film)	Uncut_Gems	2	2	0	0.0	Benny Safdie|Josh Safdie	
+Goon_(film)	Stuber_(film)	1	1	0	0.0	Michael Dowse	
+Goon_(film)	Take_Me_Home_Tonight_(film)	1	1	0	0.0	Michael Dowse	
+Goosebumps_2:_Haunted_Halloween	The_DUFF	1	1	0	0.0	Ari Sandel	
+Goosebumps_2:_Haunted_Halloween	When_We_First_Met	1	1	0	0.0	Ari Sandel	
+Grandma_(2015_film)	Little_Fockers	1	1	0	0.0	Paul Weitz	
+Gravity_(2013_film)	Roma_(2018_film)	1	1	0	0.0	Alfonso Cuarón	
+Green_Book_(film)	Hall_Pass	1	1	0	0.0	Peter Farrelly	
+Green_Book_(film)	The_Three_Stooges_(2012_film)	1	1	0	0.0	Peter Farrelly	
+Green_Lantern_(film)	The_Foreigner_(2017_film)	1	1	0	0.0	Martin Campbell	
+Green_Room_(film)	Hold_the_Dark	1	1	0	0.0	Jeremy Saulnier	
+Greenberg_(film)	Marriage_Story	1	1	0	0.0	Noah Baumbach	
+Greenberg_(film)	Mistress_America	1	1	1	0.75	Noah Baumbach	Greta Gerwig
+Greenberg_(film)	The_Meyerowitz_Stories	1	1	0	0.0	Noah Baumbach	
+Greenberg_(film)	While_We're_Young_(film)	1	1	1	1.0	Noah Baumbach	Ben Stiller
+Grimsby_(film)	Now_You_See_Me_(film)	1	1	0	0.0	Louis Leterrier	
+Grown_Ups_(film)	Grown_Ups_2	1	1	2	1.4167	Dennis Dugan	Adam Sandler|Kevin James
+Grown_Ups_(film)	Jack_and_Jill_(2011_film)	1	1	1	0.75	Dennis Dugan	Adam Sandler
+Grown_Ups_(film)	Just_Go_with_It	1	1	1	1.0	Dennis Dugan	Adam Sandler
+Grown_Ups_2	Jack_and_Jill_(2011_film)	1	1	1	0.75	Dennis Dugan	Adam Sandler
+Grown_Ups_2	Just_Go_with_It	1	1	1	1.0	Dennis Dugan	Adam Sandler
+Grudge_Match	Second_Act_(film)	1	1	0	0.0	Peter Segal	
+Hail,_Caesar!	Inside_Llewyn_Davis	2	2	0	0.0	Ethan Coen|Joel Coen	
+Hail,_Caesar!	The_Ballad_of_Buster_Scruggs	2	2	0	0.0	Ethan Coen|Joel Coen	
+Hail,_Caesar!	True_Grit_(2010_film)	2	2	0	0.0	Ethan Coen|Joel Coen	
+Hall_Pass	The_Three_Stooges_(2012_film)	2	2	0	0.0	Peter Farrelly|Bobby Farrelly	
+Halloween_(2018_film)	Joe_(2013_film)	1	1	0	0.0	David Gordon Green	
+Halloween_(2018_film)	Our_Brand_Is_Crisis_(2015_film)	1	1	0	0.0	David Gordon Green	
+Halloween_(2018_film)	Prince_Avalanche	1	1	0	0.0	David Gordon Green	
+Halloween_(2018_film)	Stronger_(film)	1	1	0	0.0	David Gordon Green	
+Halloween_(2018_film)	The_Sitter	1	1	0	0.0	David Gordon Green	
+Halloween_(2018_film)	Your_Highness	1	1	0	0.0	David Gordon Green	
+Hanna_(film)	Pan_(2015_film)	1	1	0	0.0	Joe Wright	
+Happy_Death_Day	Happy_Death_Day_2U	1	1	2	1.5	Christopher Landon	Jessica Rothe|Israel Broussard
+Happy_Death_Day	Scouts_Guide_to_the_Zombie_Apocalypse	1	1	0	0.0	Christopher Landon	
+Happy_Death_Day_2U	Scouts_Guide_to_the_Zombie_Apocalypse	1	1	0	0.0	Christopher Landon	
+Happythankyoumoreplease	Liberal_Arts_(film)	1	1	1	1.0	Josh Radnor	Josh Radnor
+Harry_Potter_and_the_Deathly_Hallows_–_Part_2	The_Legend_of_Tarzan_(film)	1	1	0	0.0	David Yates	
+Haywire_(2011_film)	Logan_Lucky	1	1	0	0.0	Steven Soderbergh	
+Haywire_(2011_film)	Magic_Mike	1	1	0	0.0	Steven Soderbergh	
+Haywire_(2011_film)	Side_Effects_(2013_film)	1	1	0	0.0	Steven Soderbergh	
+Haywire_(2011_film)	The_Laundromat_(2019_film)	1	1	0	0.0	Steven Soderbergh	
+Haywire_(2011_film)	Unsane	1	1	0	0.0	Steven Soderbergh	
+Heaven_Is_for_Real_(film)	Secretariat_(film)	1	1	0	0.0	Randall Wallace	
+Hector_and_the_Search_for_Happiness_(film)	The_Space_Between_Us_(film)	1	1	0	0.0	Peter Chelsom	
+Hell_or_High_Water_(film)	Outlaw_King	1	1	1	1.0	David Mackenzie	Chris Pine
+Hello,_My_Name_Is_Doris	The_Big_Sick	1	1	0	0.0	Michael Showalter	
+Hercules_(2014_film)	Tower_Heist	1	1	0	0.0	Brett Ratner	
+Here_Comes_the_Boom	The_Ridiculous_6	1	1	0	0.0	Frank Coraci	
+Here_Comes_the_Boom	Zookeeper_(film)	1	1	1	1.0	Frank Coraci	Kevin James
+Hereafter_(film)	J._Edgar	1	1	0	0.0	Clint Eastwood	
+Hereafter_(film)	Jersey_Boys_(film)	1	1	0	0.0	Clint Eastwood	
+Hereafter_(film)	Richard_Jewell_(film)	1	1	0	0.0	Clint Eastwood	
+Hereafter_(film)	Sully_(film)	1	1	0	0.0	Clint Eastwood	
+Hereafter_(film)	The_15:17_to_Paris	1	1	0	0.0	Clint Eastwood	
+Hereafter_(film)	The_Mule_(2018_film)	1	1	0	0.0	Clint Eastwood	
+Hereditary_(film)	Midsommar	1	1	0	0.0	Ari Aster	
+Hidden_Figures	St._Vincent_(film)	1	1	0	0.0	Theodore Melfi	
+Holiday_in_the_Wild	Six_Bullets	1	1	0	0.0	Ernie Barbarash	
+Hope_Springs_(2012_film)	The_Big_Year	1	1	0	0.0	David Frankel	
+Horns_(film)	Piranha_3D	1	1	0	0.0	Alexandre Aja	
+Horns_(film)	The_9th_Life_of_Louis_Drax	1	1	0	0.0	Alexandre Aja	
+Horrible_Bosses	Identity_Thief	1	1	1	1.0	Seth Gordon	Jason Bateman
+Hostiles_(film)	Out_of_the_Furnace	1	1	0	0.0	Scott Cooper	
+Hot_Pursuit_(2015_film)	The_Guilt_Trip_(film)	1	1	0	0.0	Anne Fletcher	
+Hot_Tub_Time_Machine	Hot_Tub_Time_Machine_2	1	1	2	1.1667	Steve Pink	Rob Corddry|Craig Robinson
+How_to_Be_Single	Love,_Rosie_(film)	1	1	0	0.0	Christian Ditter	
+Hugo_(film)	Shutter_Island_(film)	1	1	0	0.0	Martin Scorsese	
+Hugo_(film)	Silence_(2016_film)	1	1	0	0.0	Martin Scorsese	
+Hugo_(film)	The_Irishman	1	1	0	0.0	Martin Scorsese	
+Hugo_(film)	The_Wolf_of_Wall_Street_(2013_film)	1	1	0	0.0	Martin Scorsese	
+Hummingbird_(film)	Locke_(film)	1	1	0	0.0	Steven Knight	
+Hummingbird_(film)	Serenity_(2019_film)	1	1	0	0.0	Steven Knight	
+Hush_(2016_feature_film)	Oculus_(film)	1	1	0	0.0	Mike Flanagan	
+Hush_(2016_feature_film)	Ouija:_Origin_of_Evil	1	1	0	0.0	Mike Flanagan	
+Hustlers_(film)	Seeking_a_Friend_for_the_End_of_the_World	1	1	0	0.0	Lorene Scafaria	
+I'm_Still_Here_(2010_film)	Light_of_My_Life_(film)	1	1	0	0.0	Casey Affleck	
+I,_Tonya	Million_Dollar_Arm	1	1	0	0.0	Craig Gillespie	
+I,_Tonya	The_Finest_Hours_(2016_film)	1	1	0	0.0	Craig Gillespie	
+IBoy	I_See_You_(2019_film)	1	1	0	0.0	Adam Randall	
+I_Am_Number_Four_(film)	XXX:_Return_of_Xander_Cage	1	1	0	0.0	D.J. Caruso	
+I_Am_the_Pretty_Thing_That_Lives_in_the_House	The_Blackcoat's_Daughter	1	1	0	0.0	Osgood Perkins	
+If_Beale_Street_Could_Talk_(film)	Moonlight_(2016_film)	1	1	0	0.0	Barry Jenkins	
+Immortals_(2011_film)	Mirror_Mirror_(film)	1	1	0	0.0	Tarsem Singh	
+Immortals_(2011_film)	Self/less	1	1	0	0.0	Tarsem Singh	
+In_Time	The_Host_(2013_film)	1	1	0	0.0	Andrew Niccol	
+In_a_Valley_of_Violence	The_Innkeepers_(film)	1	1	0	0.0	Ti West	
+In_a_Valley_of_Violence	The_Sacrament_(2013_film)	1	1	0	0.0	Ti West	
+In_the_Heart_of_the_Sea_(film)	Inferno_(2016_film)	1	1	0	0.0	Ron Howard	
+In_the_Heart_of_the_Sea_(film)	Rush_(2013_film)	1	1	1	0.75	Ron Howard	Chris Hemsworth
+In_the_Heart_of_the_Sea_(film)	The_Dilemma	1	1	0	0.0	Ron Howard	
+In_the_Land_of_Blood_and_Honey	Unbroken_(film)	1	1	0	0.0	Angelina Jolie	
+In_the_Shadow_of_the_Moon_(2019_film)	Stake_Land	1	1	0	0.0	Jim Mickle	
+In_the_Shadow_of_the_Moon_(2019_film)	We_Are_What_We_Are_(2013_film)	1	1	0	0.0	Jim Mickle	
+Inception	Interstellar_(film)	1	1	0	0.0	Christopher Nolan	
+Inception	The_Dark_Knight_Rises	1	1	0	0.0	Christopher Nolan	
+Independence_Day:_Resurgence	Midway_(2019_film)	1	1	0	0.0	Roland Emmerich	
+Independence_Day:_Resurgence	White_House_Down	1	1	0	0.0	Roland Emmerich	
+Inferno_(2016_film)	Rush_(2013_film)	1	1	0	0.0	Ron Howard	
+Inferno_(2016_film)	The_Dilemma	1	1	0	0.0	Ron Howard	
+Inherent_Vice_(film)	Phantom_Thread	1	1	0	0.0	Paul Thomas Anderson	
+Inherent_Vice_(film)	The_Master_(2012_film)	1	1	1	1.0	Paul Thomas Anderson	Joaquin Phoenix
+Inside_Llewyn_Davis	The_Ballad_of_Buster_Scruggs	2	2	0	0.0	Ethan Coen|Joel Coen	
+Inside_Llewyn_Davis	True_Grit_(2010_film)	2	2	0	0.0	Ethan Coen|Joel Coen	
+Insidious_(film)	The_Conjuring	1	1	1	1.0	James Wan	Patrick Wilson
+Insidious_(film)	The_Conjuring_2	1	1	1	0.75	James Wan	Patrick Wilson
+Instant_Family	That's_My_Boy_(2012_film)	1	1	0	0.0	Sean Anders	
+Interstellar_(film)	The_Dark_Knight_Rises	1	1	1	0.4167	Christopher Nolan	Anne Hathaway
+Into_the_Woods_(film)	Mary_Poppins_Returns	1	1	0	0.0	Rob Marshall	
+Into_the_Woods_(film)	Pirates_of_the_Caribbean:_On_Stranger_Tides	1	1	0	0.0	Rob Marshall	
+Irrational_Man_(film)	Magic_in_the_Moonlight	1	1	1	0.5	Woody Allen	Emma Stone
+Irrational_Man_(film)	Midnight_in_Paris	1	1	0	0.0	Woody Allen	
+Irrational_Man_(film)	To_Rome_with_Love_(film)	1	1	0	0.0	Woody Allen	
+Irrational_Man_(film)	Wonder_Wheel_(film)	1	1	0	0.0	Woody Allen	
+Irrational_Man_(film)	You_Will_Meet_a_Tall_Dark_Stranger	1	1	0	0.0	Woody Allen	
+Isn't_It_Romantic_(2019_film)	The_Final_Girls	1	1	0	0.0	Todd Strauss-Schulson	
+It's_Kind_of_a_Funny_Story_(film)	Mississippi_Grind	2	2	0	0.0	Anna Boden|Ryan Fleck	
+It_Comes_at_Night	Waves_(2019_film)	1	1	0	0.0	Trey Edward Shults	
+It_Follows	Under_the_Silver_Lake	1	1	0	0.0	David Robert Mitchell	
+J._Edgar	Jersey_Boys_(film)	1	1	0	0.0	Clint Eastwood	
+J._Edgar	Richard_Jewell_(film)	1	1	0	0.0	Clint Eastwood	
+J._Edgar	Sully_(film)	1	1	0	0.0	Clint Eastwood	
+J._Edgar	The_15:17_to_Paris	1	1	0	0.0	Clint Eastwood	
+J._Edgar	The_Mule_(2018_film)	1	1	0	0.0	Clint Eastwood	
+Jack_Reacher:_Never_Go_Back	Love_&_Other_Drugs	1	1	0	0.0	Edward Zwick	
+Jack_Reacher:_Never_Go_Back	Pawn_Sacrifice	1	1	0	0.0	Edward Zwick	
+Jack_Reacher:_Never_Go_Back	Trial_by_Fire_(2018_film)	1	1	0	0.0	Edward Zwick	
+Jack_Ryan:_Shadow_Recruit	Murder_on_the_Orient_Express_(2017_film)	1	1	0	0.0	Kenneth Branagh	
+Jack_and_Jill_(2011_film)	Just_Go_with_It	1	1	1	0.75	Dennis Dugan	Adam Sandler
+Jackass_Presents:_Bad_Grandpa	The_Dirt_(film)	1	1	0	0.0	Jeff Tremaine	
+Jackie_(2016_film)	No_(2012_film)	1	1	0	0.0	Pablo Larraín	
+Jane_Got_a_Gun	The_Accountant_(2016_film)	1	1	0	0.0	Gavin O'Connor	
+Jane_Got_a_Gun	Warrior_(2011_film)	1	1	1	0.4167	Gavin O'Connor	Joel Edgerton
+Jay_and_Silent_Bob_Reboot	Red_State_(2011_film)	1	1	0	0.0	Kevin Smith	
+Jay_and_Silent_Bob_Reboot	Tusk_(2014_film)	1	1	0	0.0	Kevin Smith	
+Jay_and_Silent_Bob_Reboot	Yoga_Hosers	1	1	0	0.0	Kevin Smith	
+Jersey_Boys_(film)	Richard_Jewell_(film)	1	1	0	0.0	Clint Eastwood	
+Jersey_Boys_(film)	Sully_(film)	1	1	0	0.0	Clint Eastwood	
+Jersey_Boys_(film)	The_15:17_to_Paris	1	1	0	0.0	Clint Eastwood	
+Jersey_Boys_(film)	The_Mule_(2018_film)	1	1	0	0.0	Clint Eastwood	
+Jessabelle	Saw_3D	1	1	0	0.0	Kevin Greutert	
+Joe_(2013_film)	Our_Brand_Is_Crisis_(2015_film)	1	1	0	0.0	David Gordon Green	
+Joe_(2013_film)	Prince_Avalanche	1	1	0	0.0	David Gordon Green	
+Joe_(2013_film)	Stronger_(film)	1	1	0	0.0	David Gordon Green	
+Joe_(2013_film)	The_Sitter	1	1	0	0.0	David Gordon Green	
+Joe_(2013_film)	Your_Highness	1	1	0	0.0	David Gordon Green	
+Joker_(2019_film)	The_Hangover_Part_II	1	1	0	0.0	Todd Phillips	
+Joker_(2019_film)	War_Dogs_(2016_film)	1	1	0	0.0	Todd Phillips	
+Journey_2:_The_Mysterious_Island	Rampage_(2018_film)	1	1	1	0.75	Brad Peyton	Dwayne Johnson
+Journey_2:_The_Mysterious_Island	San_Andreas_(film)	1	1	1	0.75	Brad Peyton	Dwayne Johnson
+Joy_(2015_film)	Silver_Linings_Playbook	1	1	3	1.8333	David O. Russell	Robert De Niro|Jennifer Lawrence|Bradley Cooper
+Joy_(2015_film)	The_Fighter	1	1	0	0.0	David O. Russell	
+Judy_(film)	True_Story_(film)	1	1	0	0.0	Rupert Goold	
+Juliet,_Naked_(film)	Our_Idiot_Brother	1	1	0	0.0	Jesse Peretz	
+Jumanji:_The_Next_Level	Jumanji:_Welcome_to_the_Jungle	1	1	2	1.3333	Jake Kasdan	Dwayne Johnson|Kevin Hart
+Jumanji:_The_Next_Level	Sex_Tape_(film)	1	1	0	0.0	Jake Kasdan	
+Jumanji:_Welcome_to_the_Jungle	Sex_Tape_(film)	1	1	0	0.0	Jake Kasdan	
+Jurassic_World	Safety_Not_Guaranteed	1	1	0	0.0	Colin Trevorrow	
+Jurassic_World	The_Book_of_Henry	1	1	0	0.0	Colin Trevorrow	
+Just_Mercy	Short_Term_12	1	1	1	0.6667	Destin Daniel Cretton	Brie Larson
+Just_Mercy	The_Glass_Castle_(2017_film)	1	1	1	0.6667	Destin Daniel Cretton	Brie Larson
+Keeping_Up_with_the_Joneses_(film)	Paul_(2011_film)	1	1	0	0.0	Greg Mottola	
+Kick-Ass_(film)	Kingsman:_The_Secret_Service	1	1	0	0.0	Matthew Vaughn	
+Kick-Ass_2_(film)	Truth_or_Dare_(2018_film)	1	1	0	0.0	Jeff Wadlow	
+Killers_(2010_film)	Paranoia_(2013_film)	1	1	0	0.0	Robert Luketic	
+Killing_Season_(film)	When_in_Rome_(2010_film)	1	1	0	0.0	Mark Steven Johnson	
+King_Arthur:_Legend_of_the_Sword	Sherlock_Holmes:_A_Game_of_Shadows	1	1	1	0.4167	Guy Ritchie	Jude Law
+King_Arthur:_Legend_of_the_Sword	The_Gentlemen_(2019_film)	1	1	1	0.75	Guy Ritchie	Charlie Hunnam
+King_Arthur:_Legend_of_the_Sword	The_Man_from_U.N.C.L.E._(film)	1	1	0	0.0	Guy Ritchie	
+Knight_of_Cups_(film)	Song_to_Song	1	1	0	0.0	Terrence Malick	
+Knight_of_Cups_(film)	The_Tree_of_Life_(film)	1	1	0	0.0	Terrence Malick	
+Knight_of_Cups_(film)	To_the_Wonder	1	1	0	0.0	Terrence Malick	
+Knights_of_Badassdom	Mayhem_(film)	1	1	0	0.0	Joe Lynch	
+Knights_of_Badassdom	Point_Blank_(2019_film)	1	1	0	0.0	Joe Lynch	
+Knives_Out	Looper_(film)	1	1	0	0.0	Rian Johnson	
+Knock_Knock_(2015_film)	The_Green_Inferno_(film)	1	1	1	0.75	Eli Roth	Lorenza Izzo
+Knock_Knock_(2015_film)	The_House_with_a_Clock_in_Its_Walls_(film)	1	1	0	0.0	Eli Roth	
+La_La_Land	Whiplash_(2014_film)	1	1	0	0.0	Damien Chazelle	
+Labor_Day_(film)	Men,_Women_&_Children_(film)	1	1	0	0.0	Jason Reitman	
+Labor_Day_(film)	Tully_(2018_film)	1	1	0	0.0	Jason Reitman	
+Labor_Day_(film)	Young_Adult_(film)	1	1	0	0.0	Jason Reitman	
+Lady_Bird_(film)	Little_Women_(2019_film)	1	1	1	1.0	Greta Gerwig	Saoirse Ronan
+Laggies	Your_Sister's_Sister	1	1	0	0.0	Lynn Shelton	
+Last_Christmas_(film)	Spy_(2015_film)	1	1	0	0.0	Paul Feig	
+Last_Christmas_(film)	The_Heat_(film)	1	1	0	0.0	Paul Feig	
+Last_Flag_Flying	Where'd_You_Go,_Bernadette_(film)	1	1	0	0.0	Richard Linklater	
+Last_Vegas	The_Meg	1	1	0	0.0	Jon Turteltaub	
+Last_Vegas	The_Sorcerer's_Apprentice_(2010_film)	1	1	0	0.0	Jon Turteltaub	
+Lawless_(2012_film)	Triple_9	1	1	0	0.0	John Hillcoat	
+Leave_No_Trace_(film)	Winter's_Bone	1	1	0	0.0	Debra Granik	
+Legion_(2010_film)	Priest_(2011_film)	1	1	1	1.0	Scott Stewart	Paul Bettany
+Les_Misérables_(2012_film)	The_Danish_Girl_(film)	1	1	0	0.0	Tom Hooper	
+Let's_Be_Cops	Something_Borrowed_(film)	1	1	0	0.0	Luke Greenfield	
+Let_Me_In_(film)	War_for_the_Planet_of_the_Apes	1	1	0	0.0	Matt Reeves	
+Life_(2017_film)	Safe_House_(2012_film)	1	1	1	0.4167	Daniel Espinosa	Ryan Reynolds
+Life_After_Beth	The_Little_Hours	1	1	0	0.0	Jeff Baena	
+Life_as_We_Know_It_(film)	Love,_Simon	1	1	1	0.4167	Greg Berlanti	Josh Duhamel
+Life_of_the_Party_(2018_film)	Tammy_(film)	1	1	1	1.0	Ben Falcone	Melissa McCarthy
+Life_of_the_Party_(2018_film)	The_Boss_(2016_film)	1	1	1	1.0	Ben Falcone	Melissa McCarthy
+Like_Crazy	Newness	1	1	0	0.0	Drake Doremus	
+Limitless_(film)	The_Upside	1	1	0	0.0	Neil Burger	
+Lincoln_(film)	Ready_Player_One_(film)	1	1	0	0.0	Steven Spielberg	
+Lincoln_(film)	The_Post_(film)	1	1	0	0.0	Steven Spielberg	
+Lincoln_(film)	War_Horse_(film)	1	1	0	0.0	Steven Spielberg	
+Little_Evil	Tucker_&_Dale_vs._Evil	1	1	0	0.0	Eli Craig	
+Live_by_Night_(film)	The_Town_(2010_film)	1	1	1	1.0	Ben Affleck	Ben Affleck
+Locke_(film)	Serenity_(2019_film)	1	1	0	0.0	Steven Knight	
+Logan_Lucky	Magic_Mike	1	1	1	1.0	Steven Soderbergh	Channing Tatum
+Logan_Lucky	Side_Effects_(2013_film)	1	1	1	0.75	Steven Soderbergh	Channing Tatum
+Logan_Lucky	The_Laundromat_(2019_film)	1	1	0	0.0	Steven Soderbergh	
+Logan_Lucky	Unsane	1	1	0	0.0	Steven Soderbergh	
+Lone_Survivor	Mile_22	1	1	1	1.0	Peter Berg	Mark Wahlberg
+Lone_Survivor	Patriots_Day_(film)	1	1	1	1.0	Peter Berg	Mark Wahlberg
+Long_Shot_(2019_film)	Snatched_(2017_film)	1	1	0	0.0	Jonathan Levine	
+Long_Shot_(2019_film)	The_Night_Before_(2015_film)	1	1	1	0.5	Jonathan Levine	Seth Rogen
+Long_Shot_(2019_film)	Warm_Bodies_(film)	1	1	0	0.0	Jonathan Levine	
+Lords_of_Chaos_(film)	Polar_(film)	1	1	0	0.0	Jonas Åkerlund	
+Love_&_Other_Drugs	Pawn_Sacrifice	1	1	0	0.0	Edward Zwick	
+Love_&_Other_Drugs	Trial_by_Fire_(2018_film)	1	1	0	0.0	Edward Zwick	
+Loving_(2016_film)	Midnight_Special_(film)	1	1	1	0.5	Jeff Nichols	Joel Edgerton
+Loving_(2016_film)	Mud_(2012_film)	1	1	0	0.0	Jeff Nichols	
+Loving_(2016_film)	Take_Shelter	1	1	0	0.0	Jeff Nichols	
+Ma_(2019_film)	The_Girl_on_the_Train_(2016_film)	1	1	0	0.0	Tate Taylor	
+Ma_(2019_film)	The_Help_(film)	1	1	1	0.6667	Tate Taylor	Octavia Spencer
+MacGruber_(film)	Popstar:_Never_Stop_Never_Stopping	1	1	0	0.0	Jorma Taccone	
+Machete_(2010_film)	Machete_Kills	1	1	1	1.0	Robert Rodriguez	Danny Trejo
+Machete_(2010_film)	Sin_City:_A_Dame_to_Kill_For	1	1	0	0.0	Robert Rodriguez	
+Machete_(2010_film)	Spy_Kids:_All_the_Time_in_the_World	1	1	0	0.0	Robert Rodriguez	
+Machete_Kills	Sin_City:_A_Dame_to_Kill_For	1	1	0	0.0	Robert Rodriguez	
+Machete_Kills	Spy_Kids:_All_the_Time_in_the_World	1	1	0	0.0	Robert Rodriguez	
+Machine_Gun_Preacher	World_War_Z_(film)	1	1	0	0.0	Marc Forster	
+Magic_Mike	Side_Effects_(2013_film)	1	1	1	0.75	Steven Soderbergh	Channing Tatum
+Magic_Mike	The_Laundromat_(2019_film)	1	1	0	0.0	Steven Soderbergh	
+Magic_Mike	Unsane	1	1	0	0.0	Steven Soderbergh	
+Magic_in_the_Moonlight	Midnight_in_Paris	1	1	0	0.0	Woody Allen	
+Magic_in_the_Moonlight	To_Rome_with_Love_(film)	1	1	0	0.0	Woody Allen	
+Magic_in_the_Moonlight	Wonder_Wheel_(film)	1	1	0	0.0	Woody Allen	
+Magic_in_the_Moonlight	You_Will_Meet_a_Tall_Dark_Stranger	1	1	0	0.0	Woody Allen	
+Man_of_Steel_(film)	Sucker_Punch_(2011_film)	1	1	0	0.0	Zack Snyder	
+Manchester_by_the_Sea_(film)	Margaret_(2011_film)	1	1	0	0.0	Kenneth Lonergan	
+Mandela:_Long_Walk_to_Freedom	Tulip_Fever	1	1	0	0.0	Justin Chadwick	
+Margin_Call	Triple_Frontier_(film)	1	1	0	0.0	J.C. Chandor	
+Mark_Felt:_The_Man_Who_Brought_Down_the_White_House	Parkland_(film)	1	1	0	0.0	Peter Landesman	
+Marriage_Story	Mistress_America	1	1	0	0.0	Noah Baumbach	
+Marriage_Story	The_Meyerowitz_Stories	1	1	0	0.0	Noah Baumbach	
+Marriage_Story	While_We're_Young_(film)	1	1	1	0.6667	Noah Baumbach	Adam Driver
+Mary_Poppins_Returns	Pirates_of_the_Caribbean:_On_Stranger_Tides	1	1	0	0.0	Rob Marshall	
+Mary_Shelley_(film)	Wadjda	1	1	0	0.0	Haifaa Al-Mansour	
+Max_(2015_film)	Safe_(2012_film)	1	1	0	0.0	Boaz Yakin	
+Mayhem_(film)	Point_Blank_(2019_film)	1	1	0	0.0	Joe Lynch	
+McFarland,_USA	The_Zookeeper's_Wife_(film)	1	1	0	0.0	Niki Caro	
+Me_and_Earl_and_the_Dying_Girl_(film)	The_Current_War	1	1	0	0.0	Alfonso Gomez-Rejon	
+Me_and_Earl_and_the_Dying_Girl_(film)	The_Town_That_Dreaded_Sundown_(2014_film)	1	1	0	0.0	Alfonso Gomez-Rejon	
+Meek's_Cutoff_(film)	Night_Moves_(2013_film)	1	1	0	0.0	Kelly Reichardt	
+Meet_the_Blacks	The_Intruder_(2019_film)	1	1	0	0.0	Deon Taylor	
+Meet_the_Blacks	Traffik_(film)	1	1	0	0.0	Deon Taylor	
+Megan_Leavey_(film)	Our_Friend	1	1	0	0.0	Gabriela Cowperthwaite	
+Men,_Women_&_Children_(film)	Tully_(2018_film)	1	1	0	0.0	Jason Reitman	
+Men,_Women_&_Children_(film)	Young_Adult_(film)	1	1	0	0.0	Jason Reitman	
+Metallica:_Through_the_Never	Predators_(2010_film)	1	1	0	0.0	Nimród Antal	
+Midnight_Special_(film)	Mud_(2012_film)	1	1	0	0.0	Jeff Nichols	
+Midnight_Special_(film)	Take_Shelter	1	1	1	1.0	Jeff Nichols	Michael Shannon
+Midnight_Sun_(2018_film)	Step_Up_Revolution	1	1	0	0.0	Scott Speer	
+Midnight_in_Paris	To_Rome_with_Love_(film)	1	1	0	0.0	Woody Allen	
+Midnight_in_Paris	Wonder_Wheel_(film)	1	1	0	0.0	Woody Allen	
+Midnight_in_Paris	You_Will_Meet_a_Tall_Dark_Stranger	1	1	0	0.0	Woody Allen	
+Midway_(2019_film)	White_House_Down	1	1	0	0.0	Roland Emmerich	
+Mike_and_Dave_Need_Wedding_Dates	The_Package_(2018_film)	1	1	0	0.0	Jake Szymanski	
+Mile_22	Patriots_Day_(film)	1	1	1	1.0	Peter Berg	Mark Wahlberg
+Million_Dollar_Arm	The_Finest_Hours_(2016_film)	1	1	0	0.0	Craig Gillespie	
+Miracles_from_Heaven	The_33	1	1	0	0.0	Patricia Riggen	
+Mirror_Mirror_(film)	Self/less	1	1	0	0.0	Tarsem Singh	
+Miss_Sloane	The_Debt_(2010_film)	1	1	0	0.0	John Madden	
+Miss_Sloane	The_Second_Best_Exotic_Marigold_Hotel	1	1	0	0.0	John Madden	
+Mission:_Impossible_–_Ghost_Protocol	Tomorrowland_(film)	1	1	0	0.0	Brad Bird	
+Mistress_America	The_Meyerowitz_Stories	1	1	0	0.0	Noah Baumbach	
+Mistress_America	While_We're_Young_(film)	1	1	0	0.0	Noah Baumbach	
+Money_Monster	The_Beaver_(film)	1	1	0	0.0	Jodie Foster	
+Moonrise_Kingdom	The_Grand_Budapest_Hotel	1	1	0	0.0	Wes Anderson	
+Morning_Glory_(2010_film)	My_Cousin_Rachel_(2017_film)	1	1	0	0.0	Roger Michell	
+Mortdecai_(film)	Premium_Rush	1	1	0	0.0	David Koepp	
+Mother!	Noah_(2014_film)	1	1	0	0.0	Darren Aronofsky	
+Mother's_Day_(2010_film)	Tales_of_Halloween	1	1	0	0.0	Darren Lynn Bousman	
+Mother's_Day_(2016_film)	New_Year's_Eve_(2011_film)	1	1	0	0.0	Garry Marshall	
+Mother's_Day_(2016_film)	Valentine's_Day_(2010_film)	1	1	1	0.6667	Garry Marshall	Julia Roberts
+Movie_43	Sandy_Wexler	1	1	0	0.0	Steven Brill	
+Movie_43	The_Do-Over	1	1	0	0.0	Steven Brill	
+Movie_43	Walk_of_Shame_(film)	1	1	0	0.0	Steven Brill	
+Mr._Holmes	The_Fifth_Estate_(film)	1	1	0	0.0	Bill Condon	
+Mr._Holmes	The_Good_Liar	1	1	1	0.75	Bill Condon	Ian McKellen
+Mr._Popper's_Penguins_(film)	Vampire_Academy_(film)	1	1	0	0.0	Mark Waters	
+Mr._Right_(2015_film)	Rage_(2014_film)	1	1	0	0.0	Paco Cabezas	
+Much_Ado_About_Nothing_(2012_film)	The_Avengers_(2012_film)	1	1	0	0.0	Joss Whedon	
+Mud_(2012_film)	Take_Shelter	1	1	0	0.0	Jeff Nichols	
+My_Big_Fat_Greek_Wedding_2	What_to_Expect_When_You're_Expecting_(film)	1	1	0	0.0	Kirk Jones	
+My_Soul_to_Take	Scream_4	1	1	0	0.0	Wes Craven	
+My_Week_with_Marilyn	The_Art_of_Racing_in_the_Rain_(film)	1	1	0	0.0	Simon Curtis	
+My_Week_with_Marilyn	Woman_in_Gold_(film)	1	1	0	0.0	Simon Curtis	
+Nebraska_(film)	The_Descendants	1	1	0	0.0	Alexander Payne	
+Neighbors_(2014_film)	Neighbors_2:_Sorority_Rising	1	1	3	1.8333	Nicholas Stoller	Seth Rogen|Rose Byrne|Zac Efron
+Neighbors_(2014_film)	The_Five-Year_Engagement	1	1	0	0.0	Nicholas Stoller	
+Neighbors_2:_Sorority_Rising	The_Five-Year_Engagement	1	1	0	0.0	Nicholas Stoller	
+New_Year's_Eve_(2011_film)	Valentine's_Day_(2010_film)	1	1	0	0.0	Garry Marshall	
+Night_School_(2018_film)	Scary_Movie_5	1	1	0	0.0	Malcolm D. Lee	
+Night_School_(2018_film)	The_Best_Man_Holiday	1	1	0	0.0	Malcolm D. Lee	
+Night_at_the_Museum:_Secret_of_the_Tomb	Real_Steel	1	1	0	0.0	Shawn Levy	
+Night_at_the_Museum:_Secret_of_the_Tomb	The_Internship	1	1	0	0.0	Shawn Levy	
+Night_at_the_Museum:_Secret_of_the_Tomb	This_Is_Where_I_Leave_You	1	1	0	0.0	Shawn Levy	
+Nightcrawler_(film)	Roman_J._Israel,_Esq.	1	1	0	0.0	Dan Gilroy	
+Nightcrawler_(film)	Velvet_Buzzsaw	1	1	2	1.5	Dan Gilroy	Jake Gyllenhaal|Rene Russo
+Noelle_(2019_film)	The_Rewrite	1	1	0	0.0	Marc Lawrence	
+Non-Stop_(film)	Run_All_Night_(film)	1	1	1	1.0	Jaume Collet-Serra	Liam Neeson
+Non-Stop_(film)	The_Commuter_(film)	1	1	1	1.0	Jaume Collet-Serra	Liam Neeson
+Non-Stop_(film)	The_Shallows_(film)	1	1	0	0.0	Jaume Collet-Serra	
+Non-Stop_(film)	Unknown_(2011_film)	1	1	1	1.0	Jaume Collet-Serra	Liam Neeson
+Oblivion_(2013_film)	Only_the_Brave_(2017_film)	1	1	0	0.0	Joseph Kosinski	
+Oblivion_(2013_film)	Tron:_Legacy	1	1	0	0.0	Joseph Kosinski	
+Ocean's_8	The_Hunger_Games_(film)	1	1	0	0.0	Gary Ross	
+Oculus_(film)	Ouija:_Origin_of_Evil	1	1	0	0.0	Mike Flanagan	
+Office_Christmas_Party	The_Switch_(2010_film)	2	2	1	0.75	Josh Gordon|Will Speck	Jason Bateman
+Okja	Snowpiercer	1	1	1	0.4167	Bong Joon Ho	Tilda Swinton
+Olympus_Has_Fallen	Southpaw_(film)	1	1	0	0.0	Antoine Fuqua	
+Olympus_Has_Fallen	The_Equalizer_(film)	1	1	0	0.0	Antoine Fuqua	
+Olympus_Has_Fallen	The_Equalizer_2	1	1	0	0.0	Antoine Fuqua	
+Olympus_Has_Fallen	The_Magnificent_Seven_(2016_film)	1	1	0	0.0	Antoine Fuqua	
+Once_Upon_a_Time_in_Hollywood	The_Hateful_Eight	1	1	0	0.0	Quentin Tarantino	
+One_for_the_Money_(film)	The_Last_Song_(2010_film)	1	1	0	0.0	Julie Anne Robinson	
+Only_God_Forgives	The_Neon_Demon	1	1	0	0.0	Nicolas Winding Refn	
+Only_the_Brave_(2017_film)	Tron:_Legacy	1	1	1	0.4167	Joseph Kosinski	Jeff Bridges
+Our_Brand_Is_Crisis_(2015_film)	Prince_Avalanche	1	1	0	0.0	David Gordon Green	
+Our_Brand_Is_Crisis_(2015_film)	Stronger_(film)	1	1	0	0.0	David Gordon Green	
+Our_Brand_Is_Crisis_(2015_film)	The_Sitter	1	1	0	0.0	David Gordon Green	
+Our_Brand_Is_Crisis_(2015_film)	Your_Highness	1	1	0	0.0	David Gordon Green	
+Our_Souls_at_Night	The_Lunchbox	1	1	0	0.0	Ritesh Batra	
+Pacific_Rim_(film)	The_Shape_of_Water	1	1	0	0.0	Guillermo del Toro	
+Pain_&_Gain	Transformers:_Dark_of_the_Moon	1	1	0	0.0	Michael Bay	
+Paper_Towns_(film)	Robot_&_Frank	1	1	0	0.0	Jake Schreier	
+Parental_Guidance_(film)	Paul_Blart:_Mall_Cop_2	1	1	0	0.0	Andy Fickman	
+Parental_Guidance_(film)	Playing_with_Fire_(2019_film)	1	1	0	0.0	Andy Fickman	
+Parental_Guidance_(film)	You_Again	1	1	0	0.0	Andy Fickman	
+Passengers_(2016_film)	The_Imitation_Game	1	1	0	0.0	Morten Tyldum	
+Paterson_(film)	The_Dead_Don't_Die_(2019_film)	1	1	1	0.75	Jim Jarmusch	Adam Driver
+Paul_Blart:_Mall_Cop_2	Playing_with_Fire_(2019_film)	1	1	0	0.0	Andy Fickman	
+Paul_Blart:_Mall_Cop_2	You_Again	1	1	0	0.0	Andy Fickman	
+Pawn_Sacrifice	Trial_by_Fire_(2018_film)	1	1	0	0.0	Edward Zwick	
+People_Like_Us_(2012_film)	The_Mummy_(2017_film)	1	1	0	0.0	Alex Kurtzman	
+Peppermint_(2018_film)	The_Gunman_(2015_film)	1	1	0	0.0	Pierre Morel	
+Pet_Sematary_(2019_film)	Starry_Eyes	2	2	0	0.0	Kevin Kölsch|Dennis Widmyer	
+Pete's_Dragon_(2016_film)	The_Old_Man_&_the_Gun	1	1	1	0.75	David Lowery	Robert Redford
+Phantom_(2013_film)	The_Last_Full_Measure_(2019_film)	1	1	0	0.0	Todd Robinson	
+Phantom_Thread	The_Master_(2012_film)	1	1	0	0.0	Paul Thomas Anderson	
+Philomena_(film)	Victoria_&_Abdul	1	1	1	1.0	Stephen Frears	Judi Dench
+Piranha_3D	The_9th_Life_of_Louis_Drax	1	1	0	0.0	Alexandre Aja	
+Pitch_Perfect	Sisters_(2015_film)	1	1	0	0.0	Jason Moore	
+Playing_with_Fire_(2019_film)	You_Again	1	1	0	0.0	Andy Fickman	
+Please_Stand_By	The_Sessions_(2012_film)	1	1	0	0.0	Ben Lewin	
+Point_Break_(2015_film)	Togo_(film)	1	1	0	0.0	Ericson Core	
+Pompeii_(film)	Resident_Evil:_Afterlife	1	1	0	0.0	Paul W.S. Anderson	
+Pompeii_(film)	The_Three_Musketeers_(2011_film)	1	1	0	0.0	Paul W.S. Anderson	
+Popstar:_Never_Stop_Never_Stopping	The_Watch_(film)	1	1	0	0.0	Akiva Schaffer	
+Prince_Avalanche	Stronger_(film)	1	1	0	0.0	David Gordon Green	
+Prince_Avalanche	The_Sitter	1	1	0	0.0	David Gordon Green	
+Prince_Avalanche	Your_Highness	1	1	0	0.0	David Gordon Green	
+Prisoners_(2013_film)	Sicario_(2015_film)	1	1	0	0.0	Denis Villeneuve	
+Prometheus_(2012_film)	Robin_Hood_(2010_film)	1	1	0	0.0	Ridley Scott	
+Prometheus_(2012_film)	The_Counselor	1	1	1	0.6667	Ridley Scott	Michael Fassbender
+Prometheus_(2012_film)	The_Martian_(film)	1	1	0	0.0	Ridley Scott	
+Promised_Land_(2012_film)	Restless_(2011_film)	1	1	0	0.0	Gus Van Sant	
+Promised_Land_(2012_film)	The_Sea_of_Trees	1	1	0	0.0	Gus Van Sant	
+Rampage_(2018_film)	San_Andreas_(film)	1	1	1	1.0	Brad Peyton	Dwayne Johnson
+Ready_Player_One_(film)	The_Post_(film)	1	1	0	0.0	Steven Spielberg	
+Ready_Player_One_(film)	War_Horse_(film)	1	1	0	0.0	Steven Spielberg	
+Ready_or_Not_(2019_film)	Southbound_(2015_film)	2	2	0	0.0	Matt Bettinelli-Olpin|Tyler Gillett	
+Ready_or_Not_(2019_film)	V/H/S	2	2	0	0.0	Matt Bettinelli-Olpin|Tyler Gillett	
+Real_Steel	The_Internship	1	1	0	0.0	Shawn Levy	
+Real_Steel	This_Is_Where_I_Leave_You	1	1	0	0.0	Shawn Levy	
+Red_Sparrow	Water_for_Elephants_(film)	1	1	0	0.0	Francis Lawrence	
+Red_State_(2011_film)	Tusk_(2014_film)	1	1	1	0.75	Kevin Smith	Michael Parks
+Red_State_(2011_film)	Yoga_Hosers	1	1	0	0.0	Kevin Smith	
+Resident_Evil:_Afterlife	The_Three_Musketeers_(2011_film)	1	1	0	0.0	Paul W.S. Anderson	
+Resolution_(film)	Spring_(2014_film)	2	2	0	0.0	Justin Benson|Aaron Moorhead	
+Resolution_(film)	Synchronic_(film)	2	2	0	0.0	Justin Benson|Aaron Moorhead	
+Resolution_(film)	The_Endless_(film)	2	2	0	0.0	Justin Benson|Aaron Moorhead	
+Restless_(2011_film)	The_Sea_of_Trees	1	1	0	0.0	Gus Van Sant	
+Richard_Jewell_(film)	Sully_(film)	1	1	0	0.0	Clint Eastwood	
+Richard_Jewell_(film)	The_15:17_to_Paris	1	1	0	0.0	Clint Eastwood	
+Richard_Jewell_(film)	The_Mule_(2018_film)	1	1	0	0.0	Clint Eastwood	
+Ride_Along_(film)	Ride_Along_2	1	1	3	1.8333	Tim Story	Ice Cube|Kevin Hart|Tika Sumpter
+Ride_Along_(film)	Shaft_(2019_film)	1	1	0	0.0	Tim Story	
+Ride_Along_(film)	Think_Like_a_Man	1	1	1	0.4167	Tim Story	Kevin Hart
+Ride_Along_(film)	Think_Like_a_Man_Too	1	1	1	0.75	Tim Story	Kevin Hart
+Ride_Along_2	Shaft_(2019_film)	1	1	0	0.0	Tim Story	
+Ride_Along_2	Think_Like_a_Man	1	1	1	0.4167	Tim Story	Kevin Hart
+Ride_Along_2	Think_Like_a_Man_Too	1	1	1	0.75	Tim Story	Kevin Hart
+Rim_of_the_World	The_Babysitter_(2017_film)	1	1	0	0.0	McG	
+Rim_of_the_World	This_Means_War_(film)	1	1	0	0.0	McG	
+Rise_of_the_Planet_of_the_Apes	The_Gambler_(2014_film)	1	1	0	0.0	Rupert Wyatt	
+Robin_Hood_(2010_film)	The_Counselor	1	1	0	0.0	Ridley Scott	
+Robin_Hood_(2010_film)	The_Martian_(film)	1	1	0	0.0	Ridley Scott	
+Rock_of_Ages_(2012_film)	What_Men_Want	1	1	0	0.0	Adam Shankman	
+Roman_J._Israel,_Esq.	Velvet_Buzzsaw	1	1	0	0.0	Dan Gilroy	
+Rudderless	The_Layover_(film)	1	1	0	0.0	William H. Macy	
+Run_All_Night_(film)	The_Commuter_(film)	1	1	1	1.0	Jaume Collet-Serra	Liam Neeson
+Run_All_Night_(film)	The_Shallows_(film)	1	1	0	0.0	Jaume Collet-Serra	
+Run_All_Night_(film)	Unknown_(2011_film)	1	1	1	1.0	Jaume Collet-Serra	Liam Neeson
+Runner_Runner	The_Infiltrator_(2016_film)	1	1	0	0.0	Brad Furman	
+Runner_Runner	The_Lincoln_Lawyer_(film)	1	1	0	0.0	Brad Furman	
+Rush_(2013_film)	The_Dilemma	1	1	0	0.0	Ron Howard	
+Safe_Haven_(film)	The_Hundred-Foot_Journey_(film)	1	1	0	0.0	Lasse Hallström	
+Safe_Haven_(film)	The_Nutcracker_and_the_Four_Realms	1	1	0	0.0	Lasse Hallström	
+Safety_Not_Guaranteed	The_Book_of_Henry	1	1	0	0.0	Colin Trevorrow	
+Salt_(2010_film)	The_Giver_(film)	1	1	0	0.0	Phillip Noyce	
+Sandy_Wexler	The_Do-Over	1	1	1	1.0	Steven Brill	Adam Sandler
+Sandy_Wexler	Walk_of_Shame_(film)	1	1	0	0.0	Steven Brill	
+Savages_(2012_film)	Snowden_(film)	1	1	0	0.0	Oliver Stone	
+Savages_(2012_film)	Wall_Street:_Money_Never_Sleeps	1	1	0	0.0	Oliver Stone	
+Saving_Mr._Banks	The_Founder	1	1	0	0.0	John Lee Hancock	
+Saving_Mr._Banks	The_Highwaymen_(film)	1	1	0	0.0	John Lee Hancock	
+Scary_Movie_5	The_Best_Man_Holiday	1	1	0	0.0	Malcolm D. Lee	
+Scary_Stories_to_Tell_in_the_Dark_(film)	The_Autopsy_of_Jane_Doe	1	1	0	0.0	André Øvredal	
+Scott_Pilgrim_vs._the_World	The_World's_End_(film)	1	1	0	0.0	Edgar Wright	
+Seeking_Justice	The_November_Man	1	1	0	0.0	Roger Donaldson	
+Seven_Psychopaths	Three_Billboards_Outside_Ebbing,_Missouri	1	1	2	0.8333	Martin McDonagh	Woody Harrelson|Sam Rockwell
+Shaft_(2019_film)	Think_Like_a_Man	1	1	0	0.0	Tim Story	
+Shaft_(2019_film)	Think_Like_a_Man_Too	1	1	0	0.0	Tim Story	
+Shelter_(2010_film)	Underworld:_Awakening	2	2	0	0.0	Måns Mårlind|Björn Stein	
+Sherlock_Holmes:_A_Game_of_Shadows	The_Gentlemen_(2019_film)	1	1	0	0.0	Guy Ritchie	
+Sherlock_Holmes:_A_Game_of_Shadows	The_Man_from_U.N.C.L.E._(film)	1	1	0	0.0	Guy Ritchie	
+Short_Term_12	The_Glass_Castle_(2017_film)	1	1	1	1.0	Destin Daniel Cretton	Brie Larson
+Shot_Caller_(film)	Snitch_(film)	1	1	0	0.0	Ric Roman Waugh	
+Shutter_Island_(film)	Silence_(2016_film)	1	1	0	0.0	Martin Scorsese	
+Shutter_Island_(film)	The_Irishman	1	1	0	0.0	Martin Scorsese	
+Shutter_Island_(film)	The_Wolf_of_Wall_Street_(2013_film)	1	1	1	1.0	Martin Scorsese	Leonardo DiCaprio
+Side_Effects_(2013_film)	The_Laundromat_(2019_film)	1	1	0	0.0	Steven Soderbergh	
+Side_Effects_(2013_film)	Unsane	1	1	0	0.0	Steven Soderbergh	
+Silence_(2016_film)	The_Irishman	1	1	0	0.0	Martin Scorsese	
+Silence_(2016_film)	The_Wolf_of_Wall_Street_(2013_film)	1	1	0	0.0	Martin Scorsese	
+Silver_Linings_Playbook	The_Fighter	1	1	0	0.0	David O. Russell	
+Sin_City:_A_Dame_to_Kill_For	Spy_Kids:_All_the_Time_in_the_World	1	1	1	0.75	Robert Rodriguez	Jessica Alba
+Skiptrace_(film)	The_Legend_of_Hercules	1	1	0	0.0	Renny Harlin	
+Skyscraper_(2018_film)	We're_the_Millers	1	1	0	0.0	Rawson Marshall Thurber	
+Slender_Man_(film)	The_Losers_(2010_film)	1	1	0	0.0	Sylvain White	
+Smashed_(film)	The_Circle_(2017_film)	1	1	0	0.0	James Ponsoldt	
+Smashed_(film)	The_End_of_the_Tour	1	1	0	0.0	James Ponsoldt	
+Smashed_(film)	The_Spectacular_Now	1	1	0	0.0	James Ponsoldt	
+Snatched_(2017_film)	The_Night_Before_(2015_film)	1	1	0	0.0	Jonathan Levine	
+Snatched_(2017_film)	Warm_Bodies_(film)	1	1	0	0.0	Jonathan Levine	
+Snowden_(film)	Wall_Street:_Money_Never_Sleeps	1	1	0	0.0	Oliver Stone	
+So_Undercover	Some_Kind_of_Beautiful	1	1	0	0.0	Tom Vaughan	
+Somewhere_(film)	The_Beguiled_(2017_film)	1	1	1	0.4167	Sofia Coppola	Elle Fanning
+Somewhere_(film)	The_Bling_Ring	1	1	0	0.0	Sofia Coppola	
+Song_to_Song	The_Tree_of_Life_(film)	1	1	0	0.0	Terrence Malick	
+Song_to_Song	To_the_Wonder	1	1	0	0.0	Terrence Malick	
+Sound_of_My_Voice	The_East_(2013_film)	1	1	1	0.6667	Zal Batmanglij	Brit Marling
+Source_Code	Warcraft_(film)	1	1	0	0.0	Duncan Jones	
+Southbound_(2015_film)	V/H/S	3	3	0	0.0	Matt Bettinelli-Olpin|Tyler Gillett|David Bruckner	
+Southpaw_(film)	The_Equalizer_(film)	1	1	0	0.0	Antoine Fuqua	
+Southpaw_(film)	The_Equalizer_2	1	1	0	0.0	Antoine Fuqua	
+Southpaw_(film)	The_Magnificent_Seven_(2016_film)	1	1	0	0.0	Antoine Fuqua	
+Split_(2016_American_film)	The_Last_Airbender_(film)	1	1	0	0.0	M. Night Shyamalan	
+Split_(2016_American_film)	The_Visit_(2015_American_film)	1	1	0	0.0	M. Night Shyamalan	
+Spotlight_(film)	The_Cobbler_(2014_film)	1	1	0	0.0	Tom McCarthy	
+Spotlight_(film)	Win_Win_(film)	1	1	0	0.0	Tom McCarthy	
+Spring_(2014_film)	Synchronic_(film)	2	2	0	0.0	Justin Benson|Aaron Moorhead	
+Spring_(2014_film)	The_Endless_(film)	2	2	0	0.0	Justin Benson|Aaron Moorhead	
+Spring_Breakers	The_Beach_Bum	1	1	0	0.0	Harmony Korine	
+Spy_(2015_film)	The_Heat_(film)	1	1	1	0.6667	Paul Feig	Melissa McCarthy
+Stake_Land	We_Are_What_We_Are_(2013_film)	1	1	0	0.0	Jim Mickle	
+Star_Trek_Into_Darkness	Star_Wars:_The_Force_Awakens	1	1	0	0.0	J.J. Abrams	
+Star_Trek_Into_Darkness	Super_8_(2011_film)	1	1	0	0.0	J.J. Abrams	
+Star_Wars:_The_Force_Awakens	Super_8_(2011_film)	1	1	0	0.0	J.J. Abrams	
+Stolen_(2012_film)	The_Mechanic_(2011_film)	1	1	0	0.0	Simon West	
+Stolen_(2012_film)	Wild_Card_(2015_film)	1	1	0	0.0	Simon West	
+Stonehearst_Asylum	The_Call_(2013_film)	1	1	0	0.0	Brad Anderson	
+Stonehearst_Asylum	Vanishing_on_7th_Street	1	1	0	0.0	Brad Anderson	
+Straw_Dogs_(2011_film)	The_Outpost_(2019_film)	1	1	0	0.0	Rod Lurie	
+Stretch_(2014_film)	The_A-Team_(film)	1	1	0	0.0	Joe Carnahan	
+Stretch_(2014_film)	The_Grey	1	1	0	0.0	Joe Carnahan	
+Stronger_(film)	The_Sitter	1	1	0	0.0	David Gordon Green	
+Stronger_(film)	Your_Highness	1	1	0	0.0	David Gordon Green	
+Stuber_(film)	Take_Me_Home_Tonight_(film)	1	1	0	0.0	Michael Dowse	
+Stuck_in_Love_(film)	The_Fault_in_Our_Stars_(film)	1	1	0	0.0	Josh Boone	
+Suburbicon	The_Ides_of_March_(2011_film)	1	1	0	0.0	George Clooney	
+Suburbicon	The_Monuments_Men	1	1	1	0.75	George Clooney	Matt Damon
+Sully_(film)	The_15:17_to_Paris	1	1	0	0.0	Clint Eastwood	
+Sully_(film)	The_Mule_(2018_film)	1	1	0	0.0	Clint Eastwood	
+Summer_of_84	Turbo_Kid	3	3	0	0.0	François Simard|Anouk Whissell|Yoann-Karl Whissell	
+Survivor_(film)	The_Raven_(2012_film)	1	1	0	0.0	James McTeigue	
+Synchronic_(film)	The_Endless_(film)	2	2	0	0.0	Justin Benson|Aaron Moorhead	
+Takers	Texas_Chainsaw_3D	1	1	0	0.0	John Luessenhop	
+Tammy_(film)	The_Boss_(2016_film)	1	1	1	1.0	Ben Falcone	Melissa McCarthy
+Tangerine_(film)	The_Florida_Project	1	1	0	0.0	Sean Baker	
+Ted_(film)	Ted_2	1	1	2	1.4167	Seth MacFarlane	Mark Wahlberg|Seth MacFarlane
+The_15:17_to_Paris	The_Mule_(2018_film)	1	1	0	0.0	Clint Eastwood	
+The_A-Team_(film)	The_Grey	1	1	1	1.0	Joe Carnahan	Liam Neeson
+The_Accountant_(2016_film)	Warrior_(2011_film)	1	1	0	0.0	Gavin O'Connor	
+The_Amazing_Spider-Man_(film)	The_Only_Living_Boy_in_New_York_(film)	1	1	0	0.0	Marc Webb	
+The_Angel_(2018_film)	The_Iceman_(film)	1	1	0	0.0	Ariel Vromen	
+The_Art_of_Racing_in_the_Rain_(film)	Woman_in_Gold_(film)	1	1	0	0.0	Simon Curtis	
+The_Babysitter_(2017_film)	This_Means_War_(film)	1	1	0	0.0	McG	
+The_Ballad_of_Buster_Scruggs	True_Grit_(2010_film)	2	2	0	0.0	Ethan Coen|Joel Coen	
+The_Beguiled_(2017_film)	The_Bling_Ring	1	1	0	0.0	Sofia Coppola	
+The_Belko_Experiment	The_Darkness_(2016_American_film)	1	1	0	0.0	Greg McLean	
+The_Big_Short_(film)	The_Other_Guys	1	1	0	0.0	Adam McKay	
+The_Big_Short_(film)	Vice_(2018_film)	1	1	2	1.4167	Adam McKay	Christian Bale|Steve Carell
+The_Boy_(2016_film)	The_Devil_Inside_(film)	1	1	0	0.0	William Brent Bell	
+The_Boy_Next_Door_(film)	The_Hurricane_Heist	1	1	0	0.0	Rob Cohen	
+The_Butler	The_Paperboy_(2012_film)	1	1	1	0.3333	Lee Daniels	John Cusack
+The_Call_(2013_film)	Vanishing_on_7th_Street	1	1	0	0.0	Brad Anderson	
+The_Campaign_(film)	Trumbo_(2015_film)	1	1	0	0.0	Jay Roach	
+The_Change-Up	The_Judge_(2014_film)	1	1	0	0.0	David Dobkin	
+The_Chronicles_of_Narnia:_The_Voyage_of_the_Dawn_Treader	Unlocked_(2017_film)	1	1	0	0.0	Michael Apted	
+The_Circle_(2017_film)	The_End_of_the_Tour	1	1	0	0.0	James Ponsoldt	
+The_Circle_(2017_film)	The_Spectacular_Now	1	1	0	0.0	James Ponsoldt	
+The_Cobbler_(2014_film)	Win_Win_(film)	1	1	0	0.0	Tom McCarthy	
+The_Commuter_(film)	The_Shallows_(film)	1	1	0	0.0	Jaume Collet-Serra	
+The_Commuter_(film)	Unknown_(2011_film)	1	1	1	1.0	Jaume Collet-Serra	Liam Neeson
+The_Company_You_Keep_(film)	The_Conspirator	1	1	0	0.0	Robert Redford	
+The_Conjuring	The_Conjuring_2	1	1	2	1.5	James Wan	Patrick Wilson|Vera Farmiga
+The_Counselor	The_Martian_(film)	1	1	0	0.0	Ridley Scott	
+The_Crazies_(2010_film)	The_Last_Witch_Hunter	1	1	0	0.0	Breck Eisner	
+The_Current_War	The_Town_That_Dreaded_Sundown_(2014_film)	1	1	0	0.0	Alfonso Gomez-Rejon	
+The_DUFF	When_We_First_Met	1	1	0	0.0	Ari Sandel	
+The_Debt_(2010_film)	The_Second_Best_Exotic_Marigold_Hotel	1	1	0	0.0	John Madden	
+The_Discovery_(film)	The_One_I_Love_(film)	1	1	0	0.0	Charlie McDowell	
+The_Do-Over	Walk_of_Shame_(film)	1	1	0	0.0	Steven Brill	
+The_End_of_the_Tour	The_Spectacular_Now	1	1	0	0.0	James Ponsoldt	
+The_Equalizer_(film)	The_Equalizer_2	1	1	1	1.0	Antoine Fuqua	Denzel Washington
+The_Equalizer_(film)	The_Magnificent_Seven_(2016_film)	1	1	1	1.0	Antoine Fuqua	Denzel Washington
+The_Equalizer_2	The_Magnificent_Seven_(2016_film)	1	1	1	1.0	Antoine Fuqua	Denzel Washington
+The_Extraordinary_Adventures_of_Adèle_Blanc-Sec_(film)	The_Family_(2013_film)	1	1	0	0.0	Luc Besson	
+The_Extraordinary_Adventures_of_Adèle_Blanc-Sec_(film)	Valerian_and_the_City_of_a_Thousand_Planets	1	1	0	0.0	Luc Besson	
+The_Family_(2013_film)	Valerian_and_the_City_of_a_Thousand_Planets	1	1	0	0.0	Luc Besson	
+The_Fifth_Estate_(film)	The_Good_Liar	1	1	0	0.0	Bill Condon	
+The_Founder	The_Highwaymen_(film)	1	1	0	0.0	John Lee Hancock	
+The_Gentlemen_(2019_film)	The_Man_from_U.N.C.L.E._(film)	1	1	0	0.0	Guy Ritchie	
+The_Girl_on_the_Train_(2016_film)	The_Help_(film)	1	1	0	0.0	Tate Taylor	
+The_Girl_with_the_Dragon_Tattoo_(2011_film)	The_Social_Network	1	1	0	0.0	David Fincher	
+The_Green_Inferno_(film)	The_House_with_a_Clock_in_Its_Walls_(film)	1	1	0	0.0	Eli Roth	
+The_Guest_(2014_American_film)	You're_Next	1	1	0	0.0	Adam Wingard	
+The_Hallow	The_Nun_(2018_film)	1	1	0	0.0	Corin Hardy	
+The_Hangover_Part_II	War_Dogs_(2016_film)	1	1	0	0.0	Todd Phillips	
+The_Hate_U_Give_(film)	The_Longest_Ride_(film)	1	1	0	0.0	George Tillman Jr.	
+The_Hundred-Foot_Journey_(film)	The_Nutcracker_and_the_Four_Realms	1	1	0	0.0	Lasse Hallström	
+The_Ides_of_March_(2011_film)	The_Monuments_Men	1	1	1	0.75	George Clooney	George Clooney
+The_Immigrant_(2013_film)	The_Lost_City_of_Z_(film)	1	1	0	0.0	James Gray	
+The_Infiltrator_(2016_film)	The_Lincoln_Lawyer_(film)	1	1	0	0.0	Brad Furman	
+The_Innkeepers_(film)	The_Sacrament_(2013_film)	1	1	0	0.0	Ti West	
+The_Internship	This_Is_Where_I_Leave_You	1	1	0	0.0	Shawn Levy	
+The_Interview	This_Is_the_End	2	2	2	1.4167	Evan Goldberg|Seth Rogen	James Franco|Seth Rogen
+The_Intruder_(2019_film)	Traffik_(film)	1	1	0	0.0	Deon Taylor	
+The_Irishman	The_Wolf_of_Wall_Street_(2013_film)	1	1	0	0.0	Martin Scorsese	
+The_Karate_Kid_(2010_film)	The_Mortal_Instruments:_City_of_Bones	1	1	0	0.0	Harald Zwart	
+The_Last_Airbender_(film)	The_Visit_(2015_American_film)	1	1	0	0.0	M. Night Shyamalan	
+The_Laundromat_(2019_film)	Unsane	1	1	0	0.0	Steven Soderbergh	
+The_Light_Between_Oceans_(film)	The_Place_Beyond_the_Pines	1	1	0	0.0	Derek Cianfrance	
+The_Lighthouse_(2019_film)	The_Witch_(2015_film)	1	1	0	0.0	Robert Eggers	
+The_Mechanic_(2011_film)	Wild_Card_(2015_film)	1	1	1	1.0	Simon West	Jason Statham
+The_Meg	The_Sorcerer's_Apprentice_(2010_film)	1	1	0	0.0	Jon Turteltaub	
+The_Meyerowitz_Stories	While_We're_Young_(film)	1	1	0	0.0	Noah Baumbach	
+The_Next_Three_Days	Third_Person_(film)	1	1	1	0.6667	Paul Haggis	Liam Neeson
+The_Night_Before_(2015_film)	Warm_Bodies_(film)	1	1	0	0.0	Jonathan Levine	
+The_Nutcracker_and_the_Four_Realms	The_Wolfman_(film)	1	1	0	0.0	Joe Johnston	
+The_Other_Guys	Vice_(2018_film)	1	1	0	0.0	Adam McKay	
+The_Perks_of_Being_a_Wallflower_(film)	Wonder_(film)	1	1	0	0.0	Stephen Chbosky	
+The_Post_(film)	War_Horse_(film)	1	1	0	0.0	Steven Spielberg	
+The_Prince_(2014_film)	Vice_(2015_film)	1	1	1	0.5	Brian A. Miller	Bruce Willis
+The_Purge:_Anarchy	The_Purge:_Election_Year	1	1	1	1.0	James DeMonaco	Frank Grillo
+The_Purge:_Anarchy	The_Purge_(2013_film)	1	1	0	0.0	James DeMonaco	
+The_Purge:_Election_Year	The_Purge_(2013_film)	1	1	0	0.0	James DeMonaco	
+The_Ridiculous_6	Zookeeper_(film)	1	1	0	0.0	Frank Coraci	
+The_Secret_Life_of_Walter_Mitty_(2013_film)	Zoolander_2	1	1	1	1.0	Ben Stiller	Ben Stiller
+The_Shallows_(film)	Unknown_(2011_film)	1	1	0	0.0	Jaume Collet-Serra	
+The_Silence_(2019_film)	Wish_Upon	1	1	0	0.0	John R. Leonetti	
+The_Sitter	Your_Highness	1	1	0	0.0	David Gordon Green	
+The_Starving_Games	Vampires_Suck	2	2	0	0.0	Jason Friedberg|Aaron Seltzer	
+The_Tree_of_Life_(film)	To_the_Wonder	1	1	0	0.0	Terrence Malick	
+The_Walk_(2015_film)	Welcome_to_Marwen	1	1	0	0.0	Robert Zemeckis	
+They_Came_Together	Wanderlust_(2012_film)	1	1	1	0.75	David Wain	Paul Rudd
+Think_Like_a_Man	Think_Like_a_Man_Too	1	1	2	1.1667	Tim Story	Kevin Hart|Gabrielle Union
+This_Is_40	Trainwreck_(film)	1	1	0	0.0	Judd Apatow	
+To_Rome_with_Love_(film)	Wonder_Wheel_(film)	1	1	0	0.0	Woody Allen	
+To_Rome_with_Love_(film)	You_Will_Meet_a_Tall_Dark_Stranger	1	1	0	0.0	Woody Allen	
+Tully_(2018_film)	Young_Adult_(film)	1	1	1	1.0	Jason Reitman	Charlize Theron
+Tusk_(2014_film)	Yoga_Hosers	1	1	0	0.0	Kevin Smith	
+Venom_(2018_film)	Zombieland:_Double_Tap	1	1	0	0.0	Ruben Fleischer	
+We_Need_to_Talk_About_Kevin_(film)	You_Were_Never_Really_Here	1	1	0	0.0	Lynne Ramsay	
+Wonder_Wheel_(film)	You_Will_Meet_a_Tall_Dark_Stranger	1	1	0	0.0	Woody Allen	

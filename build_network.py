@@ -16,6 +16,16 @@ marvel_pages.zip:
 node_id is the film's English Wikipedia article name, like the Marvel node ids.
 The network is undirected: each pair appears once in films_edges.tsv.
 
+Weighting schemes (SQ2) are written to network/weightings/edges_<scheme>.tsv,
+one edge list per scheme, keeping only pairs with weight > 0 (see SCHEMES):
+
+    actors      shared_actors                       (director links dropped)
+    directors   shared_directors                    (actor links dropped)
+    dir1..dir10 d * shared_directors + shared_actors, d = 1, 2, 4, 10
+    billing     2 * shared_directors + billing_score, where each shared actor adds
+                the mean of 1/position in the two films (lead-lead 1.0,
+                lead-3rd 0.67, 3rd-3rd 0.33), so shared leads count more
+
 Usage:
     python build_network.py                      # director 2, actor 1
     python build_network.py --director-weight 3
@@ -46,28 +56,63 @@ def load_films(path):
     return films
 
 
+# scheme -> (description, weight function of the edge table)
+SCHEMES = {
+    "actors": ("shared_actors",
+               lambda e: e.shared_actors),
+    "directors": ("shared_directors",
+                  lambda e: e.shared_directors),
+    **{f"dir{d}": (f"{d} * shared_directors + shared_actors",
+                   lambda e, d=d: d * e.shared_directors + e.shared_actors)
+       for d in (1, 2, 4, 10)},
+    "billing": ("2 * shared_directors + billing_score "
+                "(each shared actor adds mean(1/position) over the two films)",
+                lambda e: 2 * e.shared_directors + e.billing_score),
+}
+# director weight relative to actors, for plotting correspondence vs. director weight
+SCHEME_DIRECTOR_WEIGHT = {"actors": 0, "dir1": 1, "dir2": 2, "dir4": 4, "dir10": 10,
+                          "directors": float("inf"), "billing": 2}
+
+
 def build_edges(films, director_weight, actor_weight):
-    pairs = defaultdict(lambda: {"shared_directors": 0, "shared_actors": 0,
+    pairs = defaultdict(lambda: {"shared_directors": 0, "shared_actors": 0, "billing_score": 0.0,
                                  "director_names": [], "actor_names": []})
     for role, id_col, name_col in [("directors", "director_ids", "directors"),
                                    ("actors", "star_ids", "stars")]:
-        person_films, person_name = defaultdict(set), {}
+        person_films, person_name = defaultdict(dict), {}  # pid -> {node: billing position}
         for node, ids, names in zip(films.node_id, films[id_col], films[name_col]):
-            for pid, name in zip(split_ids(ids), split_ids(names)):
-                person_films[pid].add(node)
+            for pos, (pid, name) in enumerate(zip(split_ids(ids), split_ids(names)), start=1):
+                person_films[pid][node] = pos
                 person_name[pid] = name
         for pid, nodes in person_films.items():
             for a, b in itertools.combinations(sorted(nodes), 2):
                 pairs[(a, b)][f"shared_{role}"] += 1
                 pairs[(a, b)][f"{role[:-1]}_names"].append(person_name[pid])
+                if role == "actors":
+                    pairs[(a, b)]["billing_score"] += (1 / nodes[a] + 1 / nodes[b]) / 2
 
     edges = pd.DataFrame([{"source": a, "target": b, **e} for (a, b), e in pairs.items()])
     edges["weight"] = director_weight * edges.shared_directors + actor_weight * edges.shared_actors
+    edges["billing_score"] = edges.billing_score.round(4)
     for c in ["director_names", "actor_names"]:
         edges[c] = edges[c].str.join("|")
-    cols = ["source", "target", "weight", "shared_directors", "shared_actors",
+    cols = ["source", "target", "weight", "shared_directors", "shared_actors", "billing_score",
             "director_names", "actor_names"]
-    return edges[cols].sort_values(["source", "target"])
+    return edges[cols].sort_values(["source", "target"]).reset_index(drop=True)
+
+
+def write_schemes(edges, n_nodes, out, today):
+    """One edge list per weighting scheme in out/weightings/edges_<scheme>.tsv."""
+    (out / "weightings").mkdir(exist_ok=True)
+    for name, (desc, fn) in SCHEMES.items():
+        e = edges.assign(weight=fn(edges).round(4))
+        e = e[e.weight > 0]
+        write_tsv(e, out / "weightings" / f"edges_{name}.tsv", [
+            f"Film collaboration network ({today}), weighting scheme '{name}'.",
+            f"weight = {desc}. Only pairs with weight > 0.",
+            f"{n_nodes} nodes (take them from films_nodes.tsv), {len(e)} edges.",
+        ])
+        print(f"  {name:10s} {len(e):6d} edges")
 
 
 def first_sentence(text):
@@ -123,10 +168,13 @@ def main():
         f"Film collaboration network ({today}): undirected, one row per film pair.",
         "Edge when two films share a director or one of the first 3 billed actors (same role only).",
         f"weight = {args.director_weight:g} * shared_directors + {args.actor_weight:g} * shared_actors. "
+        "billing_score = sum over shared actors of mean(1/billing position) in the two films. "
         f"{len(nodes)} nodes, {len(edges)} edges.",
         f"{len(set(nodes.node_id) - set(edges.source) - set(edges.target))} films have no edge "
         "- take the full node set from films_nodes.tsv.",
     ])
+
+    write_schemes(edges, len(nodes), out, today)
 
     with zipfile.ZipFile(out / "film_plots.zip", "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("film_plots/README.txt",

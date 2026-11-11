@@ -1,4 +1,4 @@
-# Film collaboration network (2026-11-04)
+# Film collaboration network (2026-11-09)
 # 1789 US films 2010-2019 (top by IMDb votes, one film per franchise, no animation).
 # node_id = English Wikipedia article name; matches films_edges.tsv and film_plots.zip.
 node_id	name	wikidata_id	url	description	imdb_id	year	genres	directors	stars	num_votes	rating	runtime	plot_words
