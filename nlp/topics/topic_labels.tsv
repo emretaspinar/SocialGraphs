@@ -1,0 +1,21 @@
+topic	label	share	coherent	top_words
+0	film industry and journalism	0.0413	True	film new work york scene story movie play city time star give write relationship begin
+1	family survival: war, farms, camps	0.0455	True	child family camp town war baby farm save daughter begin father group live continue fall
+2	space, aliens and invasion	0.0379	True	alien earth destroy escape human attack soldier ship space use pilot crash plane planet control
+3	writers, books and hotels	0.0186	True	hotel book write man paris novel room woman read horse guest work writer marina love
+4	school and sports teams	0.0155	True	school student game class player high teacher team coach football bully college video party classmate
+5	spies, military and terrorism	0.0683	True	agent team cia attack president force officer escape order war security terrorist government plan work
+6	sea and survival	0.0175	True	crew boat ship water captain island rescue robot shark man fire sink navy sea commune
+7	ghosts, possession and the supernatural	0.0335	True	body father memory ghost spirit possess child die demon use family power box world save
+8	horror: attack in a house	0.1027	True	house car escape shoot room attack man see attempt body arrive woman head door night
+9	mixed: chases and killings	0.0147	False	pope shoot zoo save cabin daughter police attempt death man die stab passenger friend henchman
+10	mixed: zombies and epidemics	0.0138	False	zombie family infected child freddie live infect people black school virus member treatment learn son
+11	fantasy: kings, battles and witches	0.0551	True	king attack fight escape queen man arrive son vampire lead battle death father witch army
+12	murder investigation	0.0365	True	murder police killer death detective evidence victim arrest apartment confront case visit crime suspect learn
+13	music, bands and performing	0.0214	True	perform band drug song performance music group club play stage audience tour record member sing
+14	crime: police, drugs and gangs	0.0887	True	police man money shoot steal car escape drug arrive drive prison gang arrest brother officer
+15	relationships and family life	0.2929	True	father friend mother ask day time night house love family life say see party new
+16	competition: sports, jobs and contests	0.0328	True	win fight team job get offer game match give race train mother family new run
+17	mixed: expeditions, caves and tunnels	0.0077	False	creature team voice station cave tunnel draft seal enter climb stone begin away attic district
+18	money and business	0.0428	True	money company pay offer sell new time painting million business work brother firm nikki job
+19	mixed: escape and rescue missions	0.013	False	escape san bishop francisco order group team prison fly destroy base rebel new nevada gate

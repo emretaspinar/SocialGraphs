@@ -1,0 +1,14 @@
+# Tested on Python 3.13 (3.12 also works for everything except sentence-transformers here)
+pandas>=2.2
+numpy>=1.26
+scipy>=1.13
+networkx>=3.4        # nx.forceatlas2_layout (network/preprocess.ipynb)
+matplotlib>=3.9
+jupyter
+
+# NLP (nlp/)
+spacy>=3.8,<3.9
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+scikit-learn>=1.6    # TF-IDF, LDA, t-SNE
+gensim>=4.3          # LDA topic coherence (nlp/notebooks/03b_nlp_analyses.ipynb)
+sentence-transformers>=3.0   # MiniLM and mpnet encoders (pulls in torch)

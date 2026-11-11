@@ -1,0 +1,64 @@
+row	query	candidate	query_title	candidate_title	candidate_url	rater_1	rater_2	rater_3
+1	Inception	The_Founder	Inception	The Founder	https://en.wikipedia.org/wiki/The_Founder			
+2	Inception	Before_I_Wake_(2016_film)	Inception	Before I Wake	https://en.wikipedia.org/wiki/Before_I_Wake_(2016_film)			
+3	Inception	Mark_Felt:_The_Man_Who_Brought_Down_the_White_House	Inception	Mark Felt: The Man Who Brought Down the White House	https://en.wikipedia.org/wiki/Mark_Felt:_The_Man_Who_Brought_Down_the_White_House			
+4	Inception	Short_Term_12	Inception	Short Term 12	https://en.wikipedia.org/wiki/Short_Term_12			
+5	Inception	The_Human_Centipede_3_(Final_Sequence)	Inception	The Human Centipede 3	https://en.wikipedia.org/wiki/The_Human_Centipede_3_(Final_Sequence)			
+6	Inception	Flatliners_(2017_film)	Inception	Flatliners	https://en.wikipedia.org/wiki/Flatliners_(2017_film)			
+7	Inception	2:22_(2017_film)	Inception	2:22	https://en.wikipedia.org/wiki/2:22_(2017_film)			
+8	Inception	Wall_Street:_Money_Never_Sleeps	Inception	Wall Street: Money Never Sleeps	https://en.wikipedia.org/wiki/Wall_Street:_Money_Never_Sleeps			
+9	Inception	Columbus_(2017_film)	Inception	Columbus	https://en.wikipedia.org/wiki/Columbus_(2017_film)			
+10	Inception	The_Dark_Tower_(2017_film)	Inception	The Dark Tower	https://en.wikipedia.org/wiki/The_Dark_Tower_(2017_film)			
+11	Inception	Dream_House_(2011_film)	Inception	Dream House	https://en.wikipedia.org/wiki/Dream_House_(2011_film)			
+12	Inception	Insidious_(film)	Inception	Insidious	https://en.wikipedia.org/wiki/Insidious_(film)			
+13	Django_Unchained	Coriolanus_(film)	Django Unchained	Coriolanus	https://en.wikipedia.org/wiki/Coriolanus_(film)			
+14	Django_Unchained	12_Years_a_Slave_(film)	Django Unchained	12 Years a Slave	https://en.wikipedia.org/wiki/12_Years_a_Slave_(film)			
+15	Django_Unchained	King_Arthur:_Legend_of_the_Sword	Django Unchained	King Arthur: Legend of the Sword	https://en.wikipedia.org/wiki/King_Arthur:_Legend_of_the_Sword			
+16	Django_Unchained	Out_of_the_Furnace	Django Unchained	Out of the Furnace	https://en.wikipedia.org/wiki/Out_of_the_Furnace			
+17	Django_Unchained	Centurion_(film)	Django Unchained	Centurion	https://en.wikipedia.org/wiki/Centurion_(film)			
+18	Django_Unchained	Kin_(film)	Django Unchained	Kin	https://en.wikipedia.org/wiki/Kin_(film)			
+19	Django_Unchained	The_Birth_of_a_Nation_(2016_film)	Django Unchained	The Birth of a Nation	https://en.wikipedia.org/wiki/The_Birth_of_a_Nation_(2016_film)			
+20	Django_Unchained	Truth_(2015_film)	Django Unchained	Truth	https://en.wikipedia.org/wiki/Truth_(2015_film)			
+21	Django_Unchained	A_Million_Ways_to_Die_in_the_West	Django Unchained	A Million Ways to Die in the West	https://en.wikipedia.org/wiki/A_Million_Ways_to_Die_in_the_West			
+22	Django_Unchained	Momentum_(2015_film)	Django Unchained	Momentum	https://en.wikipedia.org/wiki/Momentum_(2015_film)			
+23	The_Wolf_of_Wall_Street_(2013_film)	The_To_Do_List	The Wolf of Wall Street	The To Do List	https://en.wikipedia.org/wiki/The_To_Do_List			
+24	The_Wolf_of_Wall_Street_(2013_film)	Masterminds_(2016_film)	The Wolf of Wall Street	Masterminds	https://en.wikipedia.org/wiki/Masterminds_(2016_film)			
+25	The_Wolf_of_Wall_Street_(2013_film)	The_Other_Guys	The Wolf of Wall Street	The Other Guys	https://en.wikipedia.org/wiki/The_Other_Guys			
+26	The_Wolf_of_Wall_Street_(2013_film)	Annihilation_(film)	The Wolf of Wall Street	Annihilation	https://en.wikipedia.org/wiki/Annihilation_(film)			
+27	The_Wolf_of_Wall_Street_(2013_film)	Tower_Heist	The Wolf of Wall Street	Tower Heist	https://en.wikipedia.org/wiki/Tower_Heist			
+28	The_Wolf_of_Wall_Street_(2013_film)	No_Good_Deed_(2014_film)	The Wolf of Wall Street	No Good Deed	https://en.wikipedia.org/wiki/No_Good_Deed_(2014_film)			
+29	The_Wolf_of_Wall_Street_(2013_film)	The_Hobbit:_An_Unexpected_Journey	The Wolf of Wall Street	The Hobbit: An Unexpected Journey	https://en.wikipedia.org/wiki/The_Hobbit:_An_Unexpected_Journey			
+30	The_Wolf_of_Wall_Street_(2013_film)	White_Boy_Rick	The Wolf of Wall Street	White Boy Rick	https://en.wikipedia.org/wiki/White_Boy_Rick			
+31	The_Wolf_of_Wall_Street_(2013_film)	Kill_Me_Three_Times	The Wolf of Wall Street	Kill Me Three Times	https://en.wikipedia.org/wiki/Kill_Me_Three_Times			
+32	Mad_Max:_Fury_Road	Traffik_(film)	Mad Max: Fury Road	Traffik	https://en.wikipedia.org/wiki/Traffik_(film)			
+33	Mad_Max:_Fury_Road	Mortal_Engines_(film)	Mad Max: Fury Road	Mortal Engines	https://en.wikipedia.org/wiki/Mortal_Engines_(film)			
+34	Mad_Max:_Fury_Road	The_Whole_Truth_(2016_film)	Mad Max: Fury Road	The Whole Truth	https://en.wikipedia.org/wiki/The_Whole_Truth_(2016_film)			
+35	Mad_Max:_Fury_Road	Mandy_(2018_film)	Mad Max: Fury Road	Mandy	https://en.wikipedia.org/wiki/Mandy_(2018_film)			
+36	Mad_Max:_Fury_Road	Spotlight_(film)	Mad Max: Fury Road	Spotlight	https://en.wikipedia.org/wiki/Spotlight_(film)			
+37	Mad_Max:_Fury_Road	The_Revenant_(2015_film)	Mad Max: Fury Road	The Revenant	https://en.wikipedia.org/wiki/The_Revenant_(2015_film)			
+38	Mad_Max:_Fury_Road	Everly_(film)	Mad Max: Fury Road	Everly	https://en.wikipedia.org/wiki/Everly_(film)			
+39	Mad_Max:_Fury_Road	Maps_to_the_Stars	Mad Max: Fury Road	Maps to the Stars	https://en.wikipedia.org/wiki/Maps_to_the_Stars			
+40	Mad_Max:_Fury_Road	Walk_of_Shame_(film)	Mad Max: Fury Road	Walk of Shame	https://en.wikipedia.org/wiki/Walk_of_Shame_(film)			
+41	Mad_Max:_Fury_Road	Riddick_(film)	Mad Max: Fury Road	Riddick	https://en.wikipedia.org/wiki/Riddick_(film)			
+42	Mad_Max:_Fury_Road	Alpha_(2018_film)	Mad Max: Fury Road	Alpha	https://en.wikipedia.org/wiki/Alpha_(2018_film)			
+43	Gone_Girl_(film)	Mindscape_(2013_film)	Gone Girl	Mindscape	https://en.wikipedia.org/wiki/Mindscape_(2013_film)			
+44	Gone_Girl_(film)	Kingsman:_The_Secret_Service	Gone Girl	Kingsman: The Secret Service	https://en.wikipedia.org/wiki/Kingsman:_The_Secret_Service			
+45	Gone_Girl_(film)	It's_Kind_of_a_Funny_Story_(film)	Gone Girl	It's Kind of a Funny Story	https://en.wikipedia.org/wiki/It%27s_Kind_of_a_Funny_Story_(film)			
+46	Gone_Girl_(film)	The_Whole_Truth_(2016_film)	Gone Girl	The Whole Truth	https://en.wikipedia.org/wiki/The_Whole_Truth_(2016_film)			
+47	Gone_Girl_(film)	Godzilla_(2014_film)	Gone Girl	Godzilla	https://en.wikipedia.org/wiki/Godzilla_(2014_film)			
+48	Gone_Girl_(film)	A_Simple_Favor_(film)	Gone Girl	A Simple Favor	https://en.wikipedia.org/wiki/A_Simple_Favor_(film)			
+49	Gone_Girl_(film)	Unforgettable_(2017_film)	Gone Girl	Unforgettable	https://en.wikipedia.org/wiki/Unforgettable_(2017_film)			
+50	Gone_Girl_(film)	We_Bought_a_Zoo	Gone Girl	We Bought a Zoo	https://en.wikipedia.org/wiki/We_Bought_a_Zoo			
+51	Gone_Girl_(film)	All_Good_Things_(film)	Gone Girl	All Good Things	https://en.wikipedia.org/wiki/All_Good_Things_(film)			
+52	Gone_Girl_(film)	Conviction_(2010_film)	Gone Girl	Conviction	https://en.wikipedia.org/wiki/Conviction_(2010_film)			
+53	Whiplash_(2014_film)	Devil's_Pass	Whiplash	Devil's Pass	https://en.wikipedia.org/wiki/Devil%27s_Pass			
+54	Whiplash_(2014_film)	Get_On_Up_(film)	Whiplash	Get on Up	https://en.wikipedia.org/wiki/Get_On_Up_(film)			
+55	Whiplash_(2014_film)	A_Star_Is_Born_(2018_film)	Whiplash	A Star Is Born	https://en.wikipedia.org/wiki/A_Star_Is_Born_(2018_film)			
+56	Whiplash_(2014_film)	Don't_Think_Twice	Whiplash	Don't Think Twice	https://en.wikipedia.org/wiki/Don%27t_Think_Twice			
+57	Whiplash_(2014_film)	I_Am_Wrath	Whiplash	I Am Wrath	https://en.wikipedia.org/wiki/I_Am_Wrath			
+58	Whiplash_(2014_film)	Vox_Lux	Whiplash	Vox Lux	https://en.wikipedia.org/wiki/Vox_Lux			
+59	Whiplash_(2014_film)	Rudderless	Whiplash	Rudderless	https://en.wikipedia.org/wiki/Rudderless			
+60	Whiplash_(2014_film)	Luce_(film)	Whiplash	Luce	https://en.wikipedia.org/wiki/Luce_(film)			
+61	Whiplash_(2014_film)	La_La_Land	Whiplash	La La Land	https://en.wikipedia.org/wiki/La_La_Land			
+62	Whiplash_(2014_film)	Papillon_(2017_film)	Whiplash	Papillon	https://en.wikipedia.org/wiki/Papillon_(2017_film)			
+63	Whiplash_(2014_film)	Beyond_the_Lights	Whiplash	Beyond the Lights	https://en.wikipedia.org/wiki/Beyond_the_Lights			
