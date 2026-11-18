@@ -49,7 +49,8 @@ def load_nodes():
 
 def load_edges(scheme=None):
     """Edge list for a weighting scheme (network/weightings/edges_<scheme>.tsv);
-    None gives the default network/films_edges.tsv (director weight 2)."""
+    None gives the default network/films_edges.tsv (weight = 3 * shared_directors + 2 * shared_cross
+    + 1 * shared_actors)."""
     path = NET / "films_edges.tsv" if scheme is None else NET / "weightings" / f"edges_{scheme}.tsv"
     return read_tsv(path)
 

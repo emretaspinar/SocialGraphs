@@ -1,0 +1,8 @@
+Louvain (default): 31 communities of >= 5 films, Q = 0.530 (rewired 0.300 +- 0.002, z = 151); seed stability NMI = 0.67
+coherence tfidf: within 0.029 vs between 0.029 (x1.02, z = 3); unlinked pairs only x1.01, z = 1
+coherence embed: within 0.613 vs between 0.611 (x1.00, z = 1); unlinked pairs only x1.00, z = -0
+silhouette embed -0.106 (null -0.107)
+most coherent scheme (embed z): directors
+plot kNN vs collaboration: AMI = 0.015; plot kNN vs genre AMI = 0.241; collaboration vs genre AMI = 0.023
+edges sharing a genre: 0.75 vs rewired 0.65 vs random 0.61
+beyond genre (embed): same genre same comm 0.669 vs same genre diff comm 0.666 (z = 1); unlinked z = 1
