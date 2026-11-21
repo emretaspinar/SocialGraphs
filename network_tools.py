@@ -2,7 +2,7 @@
 
 Everything works on dense N x N numpy matrices whose row order is films_nodes.tsv sorted by
 node_id (the project-wide convention), and on the upper triangle of those matrices
-(N (N-1) / 2 = 1,599,366 film pairs for N = 1789).
+(N (N-1) / 2 = 1,519,896 film pairs for N = 1744).
 
 Contents
     loading       load_nodes, load_edges, weight_matrix, load_similarity
@@ -49,8 +49,8 @@ def load_nodes():
 
 def load_edges(scheme=None):
     """Edge list for a weighting scheme (network/weightings/edges_<scheme>.tsv);
-    None gives the default network/films_edges.tsv (weight = 3 * shared_directors + 2 * shared_cross
-    + 1 * shared_actors)."""
+    None gives the team's main network/films_edges.tsv
+    (3 * shared directors + 2 * cross-role + 1 * shared actors)."""
     path = NET / "films_edges.tsv" if scheme is None else NET / "weightings" / f"edges_{scheme}.tsv"
     return read_tsv(path)
 
@@ -77,33 +77,28 @@ def to_graph(W, nodes=None):
     return G
 
 
-def provisional_tfidf(nodes):
-    """Stand-in for Theme B's nlp/sim_tfidf.npy: plain TF-IDF cosine on the raw plots
-    (no NER removal, no lemmatization). Only so the pipeline runs before B delivers."""
-    from sklearn.feature_extraction.text import TfidfVectorizer
-    with zipfile.ZipFile(NET / "film_plots.zip") as z:
-        plots = [z.read(f"film_plots/{urllib.parse.quote(n, safe='')}.txt").decode()
-                 for n in nodes.node_id]
-    X = TfidfVectorizer(sublinear_tf=True, stop_words="english", min_df=2,
-                        max_df=0.5).fit_transform(plots)
-    S = (X @ X.T).toarray()
-    np.fill_diagonal(S, 1.0)
-    return S
+SIM_DIR = HERE / "nlp" / "similarity"
 
 
 def load_similarity(kind, nodes):
-    """B's similarity matrix nlp/sim_<kind>.npy (kind = 'tfidf' or 'embed').
-    Falls back to provisional_tfidf for 'tfidf' and returns None for a missing 'embed'."""
-    path = HERE / "nlp" / f"sim_{kind}.npy"
-    if path.exists():
-        S = np.load(path)
-        assert S.shape == (len(nodes), len(nodes)), f"{path} has shape {S.shape}"
-        return S
-    if kind == "tfidf":
-        warnings.warn(f"{path} not found: using provisional TF-IDF (raw plots, no NER removal)")
-        return provisional_tfidf(nodes)
-    warnings.warn(f"{path} not found: skipping '{kind}'")
-    return None
+    """Theme B's plot-similarity matrix nlp/similarity/sim_<kind>.npy
+    (kind = 'tfidf', 'embed' (all-mpnet-base-v2), 'minilm' or 'lda').
+
+    Checks that B's row order (nlp/representations/node_ids.txt) is exactly our node order,
+    so S[i, j] really is the similarity of films nodes.node_id[i] and nodes.node_id[j].
+    Raises instead of guessing when anything does not match. Returned as float64 (B stores float32)."""
+    path = SIM_DIR / f"sim_{kind}.npy"
+    if not path.exists():
+        raise FileNotFoundError(f"{path} not found: Theme B's similarity matrix is required")
+    ids_path = HERE / "nlp" / "representations" / "node_ids.txt"
+    ids = [line.rstrip("\n") for line in open(ids_path, encoding="utf-8") if line.strip()]
+    if ids != nodes.node_id.tolist():
+        raise ValueError(f"film order in {ids_path} ({len(ids)} films) does not match "
+                         f"films_nodes.tsv ({len(nodes)} films): rebuild one of them")
+    S = np.load(path).astype(np.float64)
+    if S.shape != (len(nodes), len(nodes)) or not np.allclose(S, S.T, atol=1e-6) or np.isnan(S).any():
+        raise ValueError(f"{path}: expected a symmetric {len(nodes)} x {len(nodes)} matrix without NaN")
+    return S
 
 
 def upper(M):
