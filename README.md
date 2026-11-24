@@ -29,7 +29,7 @@ Activate the environment in every new terminal, and choose it as kernel in the n
 2. `nlp/notebooks/03_nlp.ipynb`
 3. `nlp/notebooks/03b_nlp_analyses.ipynb`
 4. `notebooks/02_network_analysis.ipynb` (slow: 1,000 rewired networks)
-5. `notebooks/yaman_task.ipynb`¨'
+5. `notebooks/comunities.ipynb`¨'
 
 
 Figures and tables are saved in `results/`.
