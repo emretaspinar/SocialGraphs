@@ -280,7 +280,7 @@ def write_partitions(seeds=N_SEEDS):
 
 
 if __name__ == "__main__":
-    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("partitions", help="write communities/partitions.tsv and consensus.tsv")
     p.add_argument("--seeds", type=int, default=N_SEEDS)
