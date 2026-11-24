@@ -2,7 +2,7 @@
 pandas>=2.2
 numpy>=1.26
 scipy>=1.13
-networkx>=3.4        # nx.forceatlas2_layout (network/preprocess.ipynb)
+networkx==3.6        # nx.forceatlas2_layout (network/preprocess.ipynb)
 matplotlib>=3.9
 jupyter
 nbconvert
