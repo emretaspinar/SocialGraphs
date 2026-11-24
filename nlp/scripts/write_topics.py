@@ -1,4 +1,4 @@
-"""Write the LDA topic shares per film and the topic labels, the topic files for Person C.
+"""Write the LDA topic shares per film and the topic labels, the topic files for Yaman.
 
 Input (written by build_similarity.py --only lda):
     nlp/representations/lda.npz           theta: 1744 x 20, each film's mixture over the 20 topics (rows sum to 1)

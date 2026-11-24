@@ -8,8 +8,8 @@ changing one line here.
     ├── notebooks/        analysis notebooks; they only read files
     ├── data/             cleaned plot text (step 1)
     ├── representations/  one vector per film and method (step 2)
-    ├── similarity/       1744 x 1744 film-film similarity matrices, shared with Person A and C
-    ├── topics/           LDA topic shares per film and topic labels, for Person C
+    ├── similarity/       1744 x 1744 film-film similarity matrices,
+    ├── topics/           LDA topic shares per film and topic labels,
     ├── validation/       hand-labelled files (never overwritten by code)
     ├── docs/             short notes on decisions
     └── cache/            spaCy parse, rebuilt automatically, not in git
@@ -27,7 +27,7 @@ NETWORK = ROOT / "network"
 FILMS_NODES = NETWORK / "films_nodes.tsv"        # one row per film (1744 rows): node_id, name, genres, ...
 FILMS_EDGES = NETWORK / "films_edges.tsv"        # one row per linked film pair (11,465 rows)
 PLOTS_ZIP = NETWORK / "film_plots.zip"           # one Wikipedia plot text per film
-PARTITIONS = ROOT / "communities" / "partitions.tsv"   # Person C's communities (may not exist yet)
+PARTITIONS = ROOT / "communities" / "partitions.tsv"   
 
 # ---- step 1: clean_plots.py -----------------------------------------------------------------------
 DATA = NLP / "data"
@@ -47,7 +47,7 @@ NER_GOLD = VALIDATION / "ner_gold_sample.tsv"                  # 40 sentences wi
 PAIR_RATINGS = VALIDATION / "pair_ratings.tsv"                 # ~60 (query, candidate) film pairs rated 1-5
 PAIR_PLOTS = VALIDATION / "pair_ratings_plots.md"               # short plot of every film in that sheet, for raters
 
-# ---- topics for Person C: write_topics.py ---------------------------------------------------------
+# ---- topics for Yaman: write_topics.py ---------------------------------------------------------
 TOPICS_DIR = NLP / "topics"
 TOPICS = TOPICS_DIR / "topics.tsv"               # 1744 rows: node_id, dominant_topic, topic_0 .. topic_19 (shares)
 TOPIC_LABELS = TOPICS_DIR / "topic_labels.tsv"   # 20 rows: topic, label, share, top_words

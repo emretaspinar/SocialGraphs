@@ -20,8 +20,8 @@ Output
     nlp/representations/node_ids.txt      the film of every row (1744 lines)
     nlp/representations/<method>_terms.txt  the word of every TF-IDF column
     nlp/representations/lda_topics.tsv    the top words of every LDA topic
-    nlp/similarity/sim_<name>.npy         S for each method, 1744 x 1744 float32; the files shared with
-                                          Person A and C: sim_tfidf, sim_embed (= mpnet), sim_minilm, sim_lda
+    nlp/similarity/sim_<name>.npy         S for each method, 1744 x 1744 float32;
+                                           sim_tfidf, sim_embed (= mpnet), sim_minilm, sim_lda
 
 How other code uses the results
     S = np.load("nlp/similarity/sim_embed.npy")      # S[i, j] = plot similarity of films i and j, S[i, i] = 1
@@ -49,7 +49,7 @@ import paths
 # ==================================================================================================
 METHODS = ["tfidf", "tfidf_names_kept", "lda", "minilm", "mpnet"]
 
-# The files promised to Person A and C in the task division: method -> similarity/<name>.npy
+# The files promised to emre and yaman: method -> similarity/<name>.npy
 SHARED = {"tfidf": "sim_tfidf", "mpnet": "sim_embed", "minilm": "sim_minilm", "lda": "sim_lda"}
 
 # TF-IDF: ignore words in fewer than 2 films (typos, leftover names: they cannot make two films similar
