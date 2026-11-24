@@ -1,24 +1,3 @@
-"""Communities and genre (Theme C): shared helpers for notebooks/04_communities.ipynb.
-
-Row order everywhere is films_nodes.tsv sorted by node_id (the project-wide convention), so a
-partition is just an integer label array of length N = 1744 aligned with the similarity matrices.
-
-Contents
-    loading      load_similarity (B's matrices), load_partitions, primary_genre, scheme_graph
-    louvain      louvain (one seed, labels relabelled by size), louvain_runs, consensus_partition
-    stability    pairwise_scores (NMI / ARI between partitions)
-    coherence    within_between (mean within- vs between-community similarity), label_permutation_test,
-                 silhouette
-    genre        genre_assortativity, genre_enrichment (hypergeometric), knn_graph
-    pairs        pair_table (every film pair once, with community / genre / link flags)
-
-Command line: write the shared partition file used by Themes A and B
-    python community_tools.py partitions            # -> communities/partitions.tsv, communities/consensus.tsv
-partitions.tsv has one row per (node_id, scheme, seed): weighted Louvain (resolution 1) on every weighting
-scheme, seeds 0..49. Community 0 is the largest community of that run, 1 the next, and so on.
-consensus.tsv has one row per (node_id, scheme): the consensus partition of the 50 runs
-(Lancichinetti & Fortunato 2012), labelled the same way.
-"""
 import argparse
 import sys
 from datetime import date
